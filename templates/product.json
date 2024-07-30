@@ -47,6 +47,13 @@
             "show_gift_card_recipient": false
           }
         },
+        "popup_7RC6wP": {
+          "type": "popup",
+          "settings": {
+            "text": "Why Do You Offer a Physical CD & Digital Download?",
+            "page": "physical-cd-digital-download"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -59,13 +66,16 @@
             "share_label": "Share"
           }
         },
-        "collapsible_tab_4bLy9g": {
-          "type": "collapsible_tab",
+        "icon_with_text_ifa7DG": {
+          "type": "icon-with-text",
           "settings": {
-            "heading": "Why Do You Offer a Physical CD & Digital Download?",
-            "icon": "none",
-            "content": "<p>We offer a physical CD along with digital downloads to safeguard kids from online risks and empower parents to control their children's media consumption. Enjoy music worry-free, knowing your child is protected.<\/p>",
-            "page": ""
+            "layout": "horizontal",
+            "icon_1": "box",
+            "heading_1": "FREE SHIPPING",
+            "icon_2": "heart",
+            "heading_2": "Top-Notch Customer Support",
+            "icon_3": "star",
+            "heading_3": "Award Winning Products"
           }
         }
       },
@@ -76,9 +86,13 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "popup_7RC6wP",
         "description",
         "share",
-        "collapsible_tab_4bLy9g"
+        "icon_with_text_ifa7DG"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "enable_sticky_info": true,
