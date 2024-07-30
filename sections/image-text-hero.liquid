@@ -1,0 +1,94 @@
+{{ 'image-text-hero.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+
+
+{%- endstyle -%}
+
+
+
+
+<div class="image-text-hero--ctr">
+  <div class="image-text-hero--image-div">
+    <img
+    src="{{ section.settings.image | image_url: height: 1500 }}"
+    alt="{{ section.settings.image.alt | escape }}"
+    loading="eager"
+    width="{{ section.settings.image.width }}"
+    height="{{ section.settings.image.height }}"
+    class="image-text-hero--image"
+  >
+  <img
+  src="{{ section.settings.absolute_image | image_url: height: 1000 }}"
+  alt="{{ section.settings.absolute_image.alt | escape }}"
+  loading="eager"
+  width="{{ section.settings.absolute_image.width }}"
+  height="{{ section.settings.absolute_image.height }}"
+  class="image-text-hero--absolute_image"
+>
+  </div>
+  <div class="image-text-hero--text-div">
+    <h1 class="h0">{{ section.settings.h1 }}</h1>
+    <span>{{ section.settings.p }}</span>
+    <a class="button button--primary" href="{{ section.settings.button_link }}">{{ section.settings.button_text }}</a>
+    <p>{{ section.settings.subtext }}</p>
+
+  </div>
+  
+
+</div>
+
+
+{% schema %}
+{
+  "name": "Image + Text Hero Section",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "h1",
+      "default": "Heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "p",
+      "default": "<p>Paragraph text goes here</p>",
+      "label": "Add your paragraph here"
+    },
+    {
+      "type": "text",
+      "id": "subtext",
+      "default": "Add your subtext here",
+      "label": "Subtext"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "default": "Button Text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Section Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "absolute_image",
+      "label": "Absolute Icon"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image + Text Hero Section"
+    }
+  ]
+}
+{% endschema %}

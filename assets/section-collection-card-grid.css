@@ -1,0 +1,100 @@
+.collection--card-grid {  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "."
+      "."
+      ".";
+  }
+
+
+  .card--text-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .collection--card h3 {
+    font-size: 36px;
+    color: white;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+  }
+
+  .collection--card p {
+    font-size: 18px;
+    color: white;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .collection--card button {
+    font-size: 18px;
+    background-color: white;
+    color: #172948;
+  }
+
+
+  .card--image {
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: auto;
+  }
+
+  /* For mobile phones: */
+
+  
+
+
+@media only screen and (min-width: 1000px) {
+    /* For desktop: */
+    .collection--card-grid {  
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px 20px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". ."
+          ". ."
+          ". .";
+      }
+      .collection--card {
+        padding: 20px 40px;
+        border: 2px solid #172948;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        background-position: center;
+        background-size: cover;
+        color: white;
+      }
+      .card--text-content {
+        width: 60%;
+        align-items: start;
+      }
+      .card--image {
+        width: 100%;
+        height: auto;
+        max-width: 50%;
+      }
+      .collection--card h3 {
+        font-size: 36px;
+        color: white;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        text-align: left;
+      }
+  }

@@ -1,0 +1,68 @@
+.values-statement-ctr {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  overflow: hidden;
+
+}
+
+.values-statement-card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    border: solid 5px #74C5F0;
+    width: 100%;
+    max-width: 800px;
+    background: rgb(23,41,72);
+    color: #fff;
+
+}
+
+.values-statement-card a {
+    margin-top: 20px;
+}
+
+.values-statement-card h2 {
+  color: #fff;
+  text-align: left;
+}
+
+.absolute-certificate-image-top-right {
+    position: absolute;
+    top: -80px;
+    right: -40px;
+    max-width: 180px;
+}
+
+
+.absolute-certificate-character-img {
+    position: absolute;
+    bottom: -40px;
+    left: -20px;
+    width: 120px;
+    z-index: 100;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .absolute-certificate-character-img {
+        position: absolute;
+        bottom: 0px;
+        left: -200px;
+        width: 200px;
+    }
+  .absolute-certificate-image-top-right {
+    position: absolute;
+    top: -110px;
+    right: -40px;
+    max-width: 250px;
+}
+  }

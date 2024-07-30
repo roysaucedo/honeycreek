@@ -1,0 +1,219 @@
+{{ 'section-collection-header.css' | asset_url | stylesheet_tag }}
+
+
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="page-width section-{{ section.id }}-padding">
+    <h1 class="text-center title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      {{ section.settings.heading}}
+    </h1>
+    <p class="text-center">{{ section.settings.p }}</p>
+
+    <div class="collection-header--icon-div">
+        
+        {% for block in section.blocks %}
+            <div class="collection-header--icon">
+
+              {% if block.settings.show_tag == true %}
+              <div class="collection-icon-tag">
+                <span>{{ block.settings.tag }}</span>
+              </div>
+              {% endif %}
+              
+                {% if block.settings.image != blank %}
+                <img
+                src="{{ block.settings.image | image_url: height: 1500 }}"
+                alt="{{ block.settings.image.alt | escape }}"
+                loading="lazy"
+                width="{{ block.settings.image.width }}"
+                height="{{ block.settings.image.height }}"
+                class=""
+                >
+                {% else %}
+                {{ 'product-1' | placeholder_svg_tag }}
+                {% endif %}
+                <div id="{{ forloop.index }}" class="collection-header--icon-title">
+                    <p>{{ block.settings.collection_title }}</p>
+                </div>
+            </div>
+        {% endfor %}
+        <div class="collection-header--icon">
+                {% if section.settings.image != blank %}
+                <img
+                src="{{ section.settings.image | image_url: height: 1500 }}"
+                alt="{{ section.settings.image.alt | escape }}"
+                loading="lazy"
+                width="{{ section.settings.image.width }}"
+                height="{{ section.settings.image.height }}"
+                class=""
+                >
+                {% else %}
+                {{ 'product-1' | placeholder_svg_tag }}
+                {% endif %}
+                <div id="0" class="collection-header--icon-title-selected">
+                    <p>Shop All</p>
+                </div>
+            </div>
+    </div>
+   <div class="collection-header--collection-content-div">
+
+    {% for block in section.blocks %}
+      <div id="{{ forloop.index }}-content" class="collection-header--collection-content hide-div">
+        {% if block.settings.collection_image != blank %}
+        <img
+        src="{{ block.settings.collection_image | image_url: height: 1500 }}"
+        alt="{{ block.settings.collection_image.alt | escape }}"
+        loading="lazy"
+        width="{{ block.settings.collection_image.width }}"
+        height="{{ block.settings.collection_image.height }}"
+        class=""
+        >
+        {% else %}
+        {{ 'product-1' | placeholder_svg_tag }}
+        {% endif %}
+
+        <div class="collection-header--collection-content-text-audio">
+          {{ block.settings.collection_description }}
+          <audio controls>
+            <source src="{{ block.settings.music_link }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+          <a class="button button--primary" style="margin-top: 15px;" href="{{ block.settings.button_link }}">{{ block.settings.button_text }}</a>
+        </div>
+
+      </div>
+  {% endfor %}
+
+   </div>
+
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Collection Header",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+    "type": "text",
+    "id": "heading",
+    "default": "Collection Heading",
+    "label": "Heading"
+     },
+     {
+    "type": "text",
+    "id": "p",
+    "default": "Place Your Collection Sub Heading Here",
+    "label": "Sub Heading"
+     },
+     {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Shop All Icon"
+        },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+        {
+        "type": "Collection",
+        "name": "Collection",
+        "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Collection Icon"
+        },
+        {
+          "type": "text",
+          "id": "collection_title",
+          "label": "Collection Title",
+          "default": "Collection Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "collection_image",
+          "label": "Collection Image"
+        },
+        {
+          "type": "richtext",
+          "id": "collection_description",
+          "label": "Collection Description",
+          "default": "<p>Collection Description</p>"
+        },
+        {
+          "type": "text",
+          "id": "music_link",
+          "label": "Music Link",
+          "default": "Music Link"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "default": "Button Text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_tag",
+          "label": "Show tag",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "tag",
+          "label": "Tag",
+          "default": "Block Tag"
+        }
+        ]
+        }
+       ],
+  "presets": [
+        {
+          "name": "Collection Header"
+        }
+    ]
+}
+{% endschema %}

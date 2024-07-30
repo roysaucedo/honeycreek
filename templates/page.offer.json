@@ -1,0 +1,124 @@
+{
+  "sections": {
+    "video_cFM83q": {
+      "type": "video",
+      "settings": {
+        "heading": "Better Kids Make a Better World",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_text_hero_8zeE73": {
+      "type": "image-text-hero",
+      "settings": {
+        "h1": "Heading",
+        "p": "<p>Paragraph text goes here<\/p>",
+        "subtext": "Add your subtext here",
+        "button_text": "Button Text",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/Hero-Img-HoneyCreek_2.png"
+      }
+    },
+    "section_reviews_slider_jHb3ha": {
+      "type": "section-reviews-slider",
+      "blocks": {
+        "slide_mmKGE8": {
+          "type": "Slide",
+          "settings": {
+            "rich_text": "<p>Enter your review text here. Enter your review text here. Enter your review text here. Enter your review text here.<\/p>"
+          }
+        },
+        "slide_FFcmWR": {
+          "type": "Slide",
+          "settings": {
+            "rich_text": "<p>Enter your review text here. Enter your review text here. Enter your review text here. Enter your review text here.<\/p>"
+          }
+        },
+        "slide_gmCGTb": {
+          "type": "Slide",
+          "settings": {
+            "rich_text": "<p>Enter your review text here. Enter your review text here. Enter your review text here. Enter your review text here.<\/p>"
+          }
+        },
+        "slide_yB3UV3": {
+          "type": "Slide",
+          "settings": {
+            "rich_text": "<p>Enter your review text here. Enter your review text here. Enter your review text here. Enter your review text here.<\/p>"
+          }
+        },
+        "slide_Cr3WbE": {
+          "type": "Slide",
+          "settings": {
+            "rich_text": "<p>Enter your review text here. Enter your review text here. Enter your review text here. Enter your review text here.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_mmKGE8",
+        "slide_FFcmWR",
+        "slide_gmCGTb",
+        "slide_yB3UV3",
+        "slide_Cr3WbE"
+      ],
+      "settings": {
+        "h2": "Heading",
+        "h3": "Paragraph text goes here"
+      }
+    },
+    "newsletter_krgLfL": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_hfPCzP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get your free download",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_NFGhCd": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email_form_yjGpWV": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_hfPCzP",
+        "paragraph_NFGhCd",
+        "email_form_yjGpWV"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "video_cFM83q",
+    "main",
+    "image_text_hero_8zeE73",
+    "section_reviews_slider_jHb3ha",
+    "newsletter_krgLfL"
+  ]
+}

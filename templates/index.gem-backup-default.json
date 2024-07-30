@@ -1,0 +1,276 @@
+{
+  "sections": {
+    "image_text_hero_8T74VY": {
+      "type": "image-text-hero",
+      "settings": {
+        "h1": "Better Kids Make A Better World",
+        "p": "<p>HoneyCreek Kids aims to positively influence families by creating life-changing products and materials that inspire.<\/p>",
+        "subtext": "Over 1,000,000+ copies sold",
+        "button_text": "Explore Our Collections",
+        "button_link": "shopify:\/\/collections\/all-products",
+        "image": "shopify:\/\/shop_images\/Hero-Img-HoneyCreek_2.png",
+        "absolute_image": "shopify:\/\/shop_images\/image_5_5.png"
+      }
+    },
+    "section_reviews_slider_PDNUCL": {
+      "type": "section-reviews-slider",
+      "blocks": {
+        "slide_H79nAt": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_24_1.png",
+            "rich_text": "<p>“A few of the students were crying because they felt so happy because they were touched by the music and the message. <span style=\"text-decoration:underline\"><strong>This is exactly what our school needed at this time.<\/strong><\/span>”<\/p><p><strong>Denis C. - Principal<\/strong><\/p>"
+          }
+        },
+        "slide_wU8gdt": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_24_1.png",
+            "rich_text": "<p>\"I really want to thank you for the character book and the CD. It was fabulous. Also the vocabulary like honesty, kindness, [and] respect.\"<\/p><p><strong>Chaysity E. - Elementary Student<\/strong><\/p>"
+          }
+        },
+        "slide_ndXFK3": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_24_1.png",
+            "rich_text": "<p>\"I sing the songs every day. And I also read the book. I loved everything.\"<\/p><p><strong>Sidney W. - Elementary Student<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_H79nAt",
+        "slide_wU8gdt",
+        "slide_ndXFK3"
+      ],
+      "settings": {
+        "h2": "Hear From Happy Customers",
+        "h3": ""
+      }
+    },
+    "rich_text_TprPeD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_63YnPe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Value",
+            "heading_size": "h1"
+          }
+        },
+        "text_V99Nfy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Pharetra hac duis elit in tincidunt diam euismod facilisis. Nunc nisl faucibus.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_63YnPe",
+        "text_V99Nfy"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 44
+      }
+    },
+    "home_values_statement_X3drFX": {
+      "type": "home-values-statement",
+      "disabled": true,
+      "custom_css": [
+        "h2 {color: #c25700; font-family: \"playfair display\", serif; font-size: 40px;}",
+        "a {background: #c25700; box-shadow: #c25700;}"
+      ],
+      "settings": {
+        "h1": "GOLD LABEL VALUES",
+        "p": "<p>At Honey Creek, we offer a collection of products and resources that embody timeless values. Our content is not just inspirational, meaningful, and endearing but is also seamlessly integrated into daily life, making it easy to listen to, watch, or read.<\/p><p>Rooted in the philosophy of 'Sing It and You'll Never Forget It', our products are designed to be enjoyed repeatedly by children, youth, and adults alike. Our offerings go beyond mere entertainment; they serve as a powerful tool to reinforce essential behavioral traits and skills.<\/p><p>By providing positive alternatives to negative behavior, we contribute to personal growth and development. With a focus on teaching basic living skills, our products carry positive core values that align with the principles of successful living.<\/p><p>What sets us apart is the simplicity and accessibility of our products. With little to no preparation required, they are easy to use and easily orchestrate into various aspects of life. Moreover, our content encourages observation and awareness traits, fostering a mindset that engages users to serve others, mentor, and undergo positive character transformation.<\/p><p>We are dedicated to creating an enriching experience that not only entertains, but also educates and inspires individuals of all ages. Join us on a journey of personal growth, positive change, and a celebration of timeless values.<\/p><p><\/p>",
+        "btn_text": "Learn More",
+        "link": "shopify:\/\/pages\/honey-creek-kids-values",
+        "img_top_left": "shopify:\/\/shop_images\/Group_47_3.png",
+        "img_bottom_right": "shopify:\/\/shop_images\/Group_48_3.png",
+        "character_img": "shopify:\/\/shop_images\/image_5_5.png",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_values_v2_tm8CeY": {
+      "type": "section-values-v2",
+      "settings": {
+        "h1": "Gold Label Values",
+        "p": "<p>At Honey Creek, we offer a collection of products and resources that embody timeless values. Our content is not just inspirational, meaningful, and endearing but is also seamlessly integrated into daily life, making it easy to listen to, watch, or read.<\/p><p>Rooted in the philosophy of <span style=\"text-decoration:underline\"><em><strong>'Sing It and You'll Never Forget It'<\/strong><\/em><\/span>, our products are designed to be enjoyed repeatedly by children, youth, and adults alike. <\/p><p>Our offerings go beyond mere entertainment; they serve as a powerful tool to reinforce essential behavioral traits and skills.By providing positive alternatives to negative behavior, we contribute to personal growth and development. With a focus on teaching basic living skills, our products carry positive core values that align with the principles of successful living.<\/p><p>What sets us apart is the simplicity and accessibility of our products. With little to no preparation required, they are easy to use and easily orchestrate into various aspects of life. Moreover, our content encourages observation and awareness traits, fostering a mindset that engages users to serve others, mentor, and undergo positive character transformation.<\/p><p>We are dedicated to creating an enriching experience that not only entertains, but also educates and inspires individuals of all ages. Join us on a journey of personal growth, positive change, and a celebration of timeless values.<\/p><p><\/p>",
+        "btn_text": "Learn More",
+        "link": "shopify:\/\/pages\/honey-creek-kids-values",
+        "img_top_right": "shopify:\/\/shop_images\/GOLD_1.png",
+        "padding_top": 100,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_3bKwHT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rdKzGM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gold Label Values",
+            "heading_size": "h1"
+          }
+        },
+        "text_neh7DU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Honey Creek, we offer a collection of products and resources that embody timeless values. <\/p><p>Our content is not just inspirational, meaningful, and endearing but is also seamlessly integrated into daily life, making it easy to listen to, watch, or read.<\/p><p> Rooted in the philosophy of 'Sing It and You'll Never Forget It,' our products are designed to be enjoyed repeatedly by children, youth, and adults alike.<\/p><p>Our offerings go beyond mere entertainment; they serve as a powerful tool to reinforce essential behavioral traits and skills. <\/p><p>By providing positive alternatives to negative behavior, we contribute to personal growth and development. With a focus on teaching basic living skills, our products carry positive core values that align with the principles of successful living.<\/p><p>What sets us apart is the simplicity and accessibility of our products. With little to no preparation required, they are easy to use and easily orchestrate into various aspects of life. Moreover, our content encourages observation and awareness traits, fostering a mindset that engages users to serve others, mentor, and undergo positive character transformation.<\/p><p>We are dedicated to creating an enriching experience that not only entertains but also educates and inspires individuals of all ages. Join us on a journey of personal growth, positive change, and a celebration of timeless values.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rdKzGM",
+        "text_neh7DU"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/relaxing-with-book.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "inverse",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_whjGBD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wTiJJY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore Our Collections",
+            "heading_size": "h1"
+          }
+        },
+        "text_RRCVaW": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_TBUfxG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wTiJJY",
+        "text_RRCVaW",
+        "button_TBUfxG"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 12
+      }
+    },
+    "section_collection_icon_RfRzcb": {
+      "type": "section-collection-icon",
+      "blocks": {
+        "collection_ArbAK7": {
+          "type": "Collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_2_53.png",
+            "collection_title": "ABC's Of Character",
+            "link": "shopify:\/\/pages\/abcs-for-character-navigation",
+            "show_tag": true,
+            "tag": "Coming Soon"
+          }
+        },
+        "collection_R3Cmiz": {
+          "type": "Collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_44_3ffad478-2d59-4797-9b72-ba913b65194c.png",
+            "collection_title": "Character Classics",
+            "link": "shopify:\/\/products\/the-character-classics-program",
+            "show_tag": false,
+            "tag": "Block Tag"
+          }
+        },
+        "collection_7Vyt36": {
+          "type": "Collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1_90.png",
+            "collection_title": "Handbook For Life",
+            "link": "shopify:\/\/collections\/a-handbook-for-life",
+            "show_tag": false,
+            "tag": "Block Tag"
+          }
+        },
+        "collection_EB7M4R": {
+          "type": "Collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_45_ffd13bf4-bb09-4e30-ae48-86363ee5b23b.png",
+            "collection_title": "Character Billders",
+            "link": "",
+            "show_tag": true,
+            "tag": "Coming Soon"
+          }
+        },
+        "collection_PyYfQy": {
+          "type": "Collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_45_ffd13bf4-bb09-4e30-ae48-86363ee5b23b.png",
+            "collection_title": "Mother Goose Tales",
+            "link": "",
+            "show_tag": true,
+            "tag": "Coming Soon"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ArbAK7",
+        "collection_R3Cmiz",
+        "collection_7Vyt36",
+        "collection_EB7M4R",
+        "collection_PyYfQy"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Explore Our Products",
+        "p": "",
+        "image": "shopify:\/\/shop_images\/image_5_5.png",
+        "link": "shopify:\/\/collections\/all",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_text_hero_8T74VY",
+    "section_reviews_slider_PDNUCL",
+    "rich_text_TprPeD",
+    "home_values_statement_X3drFX",
+    "section_values_v2_tm8CeY",
+    "image_with_text_3bKwHT",
+    "rich_text_whjGBD",
+    "section_collection_icon_RfRzcb"
+  ]
+}

@@ -1,0 +1,70 @@
+.values-statement-ctr {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.values-statement-card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 20px;
+    border-radius: 10px;
+    border: solid 10px #D8A74A;
+    width: 100%;
+    max-width: 800px;
+    /* background: url("https://cdn.shopify.com/s/files/1/0609/4569/4905/files/values-bg_2.svg?v=1712257076");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+    background: rgb(217,164,67);
+    background: linear-gradient(90deg, rgba(217,164,67,1) 0%, rgba(244,225,128,1) 47%, rgba(217,164,67,1) 100%);
+
+}
+
+.values-statement-card a {
+    margin-top: 20px;
+}
+
+.values-statement-card h2 {
+    text-align: center;
+}
+
+
+.absolute-certificate-image-top-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.absolute-certificate-image-bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.absolute-certificate-character-img {
+    position: absolute;
+    bottom: -40px;
+    left: -20px;
+    width: 120px;
+    z-index: 100;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .absolute-certificate-character-img {
+        position: absolute;
+        bottom: 0px;
+        left: -200px;
+        width: 200px;
+    }
+  }

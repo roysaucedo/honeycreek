@@ -1,0 +1,114 @@
+{{ 'section-reviews-slider.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width review-slider--ctr">
+    <h2 class="h0">{{ section.settings.h2 }}</h2>
+    <h3 class="h3">{{ section.settings.h3 }}</h3>
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {% for block in section.blocks %}
+        <div class="swiper-slide">
+            {% comment %} {% render 'stars' %} {% endcomment %}
+            <img
+            src="{{ block.settings.image | image_url: height: 1500 }}"
+            alt="{{ block.settings.image.alt | escape }}"
+            loading="lazy"
+            width="{{ block.settings.image.width }}"
+            height="{{ block.settings.image.height }}"
+            class="slider-block--image"
+            >
+            {{ block.settings.rich_text }}
+        </div>
+      {% endfor %}
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+</div>
+
+
+
+
+
+<script>
+    const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 40,
+  breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 60,
+        }
+      },
+
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+
+{% schema %}
+    {
+      "name": "Reviews Slider",
+      "tag": "section",
+      "class": "section",
+      "settings": [
+        {
+          "type": "text",
+          "id": "h2",
+          "default": "Heading",
+          "label": "Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "h3",
+          "default": "Paragraph text goes here",
+          "label": "Add your paragraph here"
+        }
+      ],
+      "blocks": [
+        {
+        "type": "Slide",
+        "name": "Slide",
+        "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Block Image"
+        },
+        {
+          "type": "richtext",
+          "id": "rich_text",
+          "label": "Review Text",
+          "default": "<p>Enter your review text here.</p>"
+        }
+        ]
+        }
+       ],
+      "presets": [
+        {
+          "name": "Reviews Slider"
+        }
+      ]
+    }
+    {% endschema %}
+    

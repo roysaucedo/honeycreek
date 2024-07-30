@@ -1,0 +1,174 @@
+{{ 'section-collection-header.css' | asset_url | stylesheet_tag }}
+
+
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="page-width section-{{ section.id }}-padding">
+    <h2 class="h1 text-center title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      {{ section.settings.heading}}
+    </h2>
+    <p class="text-center">{{ section.settings.p }}</p>
+
+    <div class="collection-header--icon-div">
+        
+        {% for block in section.blocks %}
+            <a href="{{ block.settings.link }}" class="collection-header--icon">
+
+              {% if block.settings.show_tag == true %}
+              <div class="collection-icon-tag">
+                <span>{{ block.settings.tag }}</span>
+              </div>
+              {% endif %}
+              <div>
+                {% if block.settings.image != blank %}
+                <img
+                src="{{ block.settings.image | image_url: height: 1500 }}"
+                alt="{{ block.settings.image.alt | escape }}"
+                loading="lazy"
+                width="{{ block.settings.image.width }}"
+                height="{{ block.settings.image.height }}"
+                class=""
+                >
+                {% else %}
+                {{ 'product-1' | placeholder_svg_tag }}
+                {% endif %}
+                <a href="{{ block.settings.link }}" id="{{ forloop.index }}" class="collection-header--icon-title">
+                    {{ block.settings.collection_title }}
+                </a>
+                </div>
+            </a>
+        {% endfor %}
+        <a href="{{ section.settings.link }}" class="collection-header--icon">
+                <div>
+                {% if section.settings.image != blank %}
+                <img
+                src="{{ section.settings.image | image_url: height: 1500 }}"
+                alt="{{ section.settings.image.alt | escape }}"
+                loading="lazy"
+                width="{{ section.settings.image.width }}"
+                height="{{ section.settings.image.height }}"
+                class=""
+                >
+                {% else %}
+                {{ 'product-1' | placeholder_svg_tag }}
+                {% endif %}
+                <a href="{{ section.settings.link }}" id="0" class="collection-header--icon-title">
+                    Shop All
+                </a>
+                </div>
+        </a>
+    </div>
+
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Collection Icons",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+    "type": "text",
+    "id": "heading",
+    "default": "Collection Heading",
+    "label": "Heading"
+     },
+     {
+    "type": "text",
+    "id": "p",
+    "default": "Place Your Collection Sub Heading Here",
+    "label": "Sub Heading"
+     },
+     {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Shop All Icon"
+    },
+    {
+        "type": "url",
+        "id": "link",
+        "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+        {
+        "type": "Collection",
+        "name": "Collection",
+        "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Collection Icon"
+        },
+        {
+          "type": "text",
+          "id": "collection_title",
+          "label": "Collection Title",
+          "default": "Collection Title"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_tag",
+          "label": "Show tag",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "tag",
+          "label": "Tag",
+          "default": "Block Tag"
+        }
+        ]
+        }
+       ],
+  "presets": [
+        {
+          "name": "Collection Icons"
+        }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,96 @@
+{
+  "sections": {
+    "breadcrumbs_6EdQGm": {
+      "type": "breadcrumbs",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [
+        "h1 {text-align: center;}"
+      ],
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "collection_text_audio_player_PVmeGR": {
+      "type": "collection-text-audio-player",
+      "settings": {
+        "h1": "{{ collection.title }}",
+        "p": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "audio": "<script src=\"https:\/\/cdn.commoninja.com\/sdk\/latest\/commonninja.js\" defer><\/script>\n<div class=\"commonninja_component pid-a62ce1e2-95a1-4d5b-bbfe-275e20e39f1d\"><\/div>"
+      }
+    },
+    "collection_header_text_EjXVXz": {
+      "type": "collection-header-text",
+      "blocks": {
+        "heading_DYT8dA": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_t9j3RU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DYT8dA",
+        "text_t9j3RU"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".h5 {font-size: 18px;}",
+        ".price {font-size: 16px;}",
+        "@media only screen and (min-width: 768px) {\/* For desktop: *\/ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_6EdQGm",
+    "banner",
+    "collection_text_audio_player_PVmeGR",
+    "collection_header_text_EjXVXz",
+    "product-grid"
+  ]
+}

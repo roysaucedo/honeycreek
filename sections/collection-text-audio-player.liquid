@@ -1,0 +1,88 @@
+{{ 'collection-text-audio-player.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+
+
+{%- endstyle -%}
+
+
+
+<section class="shopify-section section">
+    <div class="page-width text-audio--flex-div">
+        <div class="text-audio--text-div">
+            <h1 class="rich-text__heading rte inline-richtext h1 scroll-trigger animate--slide-in">{{
+                section.settings.h1 }}</h1>
+            <div class="rich-text__text rte scroll-trigger animate--slide-in">
+                <p>{{ section.settings.p }}</p>
+            </div>
+            <a class="button button--primary" href="{{ section.settings.button_link }}">{{ section.settings.button_text
+                }}</a>
+
+
+        </div>
+        <div class="text-audio--image-div position-relative">
+            <div>
+                {{ section.settings.audio }}
+            </div>
+            <img src="{{ section.settings.absolute_image | image_url: height: 1000 }}"
+                alt="{{ section.settings.absolute_image.alt | escape }}" loading="eager"
+                width="{{ section.settings.absolute_image.width }}"
+                height="{{ section.settings.absolute_image.height }}" class="text-audio--absolute_image">
+        </div>
+        
+
+
+    </div>
+
+</section>
+
+
+
+{% schema %}
+{
+"name": "Text + Audio Player",
+"tag": "section",
+"class": "section",
+"settings": [
+{
+"type": "text",
+"id": "h1",
+"default": "Heading",
+"label": "Heading"
+},
+{
+"type": "richtext",
+"id": "p",
+"default": "<p>Paragraph text goes here</p>",
+"label": "Add your paragraph here"
+},
+{
+"type": "text",
+"id": "button_text",
+"default": "Button Text",
+"label": "Button Text"
+},
+{
+"type": "url",
+"id": "button_link",
+"label": "Button Link"
+},
+{
+  "type": "liquid",
+  "id": "audio",
+  "label": "Audio Player",
+  "default": "TEST"
+},
+{
+"type": "image_picker",
+"id": "absolute_image",
+"label": "Absolute Icon"
+}
+],
+"presets": [
+{
+"name": "Text + Audio Player"
+}
+]
+}
+{% endschema %}

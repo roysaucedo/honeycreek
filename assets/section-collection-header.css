@@ -1,0 +1,145 @@
+.collection-header--icon-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+.collection-header--icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    text-decoration: none;
+}
+
+.collection-header--icon:hover {
+    color: white;
+}
+
+.collection-header--icon div:hover {
+    color: white !important;
+}
+
+.collection-header--icon img {
+    width: auto;
+    height: 150px;
+    max-height: 200px;
+    padding-bottom: 10px;
+}
+
+.collection-header--icon-title {
+    border-radius: 100px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid rgb(var(--color-foreground));
+    color: rgb(var(--color-foreground));
+    cursor: pointer;
+    height: 50px;
+}
+
+.collection-header--icon-title:hover {
+    background-color: rgb(var(--color-foreground));
+    border: 1px solid rgb(var(--color-foreground));
+    color: white;
+}
+
+
+
+.collection-header--icon-title-selected {
+    border-radius: 100px;
+    padding: 8px 15px;
+    text-decoration: none;
+    background-color: rgb(var(--color-foreground));
+    border: 1px solid rgb(var(--color-foreground));
+    color: white;
+    cursor: pointer;
+}
+
+.collection-header--icon-title-selected p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.collection-header--icon-title p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color: rgba(var(--color-foreground), 0.75);
+    text-decoration: none;
+}
+
+.collection-header--icon-title>div>p:hover {
+    color: white
+}
+
+
+.collection-header--icon-title p:hover {
+    color: white
+}
+
+.collection-header--icon-title a {
+    text-decoration: none;
+}
+
+.collection-header--collection-content-div {
+    /* padding: 40px 20px;
+    margin-bottom: 20px; */
+}
+
+.collection-header--collection-content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    background-color: #fafafa;
+    border-radius: 20px;
+
+}
+
+.collection-header--collection-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.collection-header--collection-content-text-audio {
+    padding: 20px;
+    width: 100%;
+}
+
+.collection-header--collection-content-text-audio audio {
+    width: 100%;
+    
+}
+
+.collection-icon-tag {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border-radius: 100px;
+    padding: 2px 10px;
+    background-color: #4385F5;
+    border: 1px solid #4385F5;
+    color: white;
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+    .collection-header--collection-content img {
+        width: 45%;
+    }
+    
+    .collection-header--collection-content-text-audio {
+        width: 50%;
+    }
+
+  }

@@ -1,0 +1,46 @@
+.text-audio--flex-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+.text-audio--text-div {
+    width: 100%;
+}
+
+.text-audio--image-div {
+    width: 100%;
+}
+
+.text-audio--absolute_image {
+    position: absolute;
+    right: -40px;
+    bottom: -70px;
+    width: 120px;
+    height: auto;
+    z-index: 9999;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .text-audio--flex-div {
+    display: flex;
+    flex-direction: row;
+}
+  .text-audio--text-div {
+    width: 50%;
+}
+.text-audio--image-div {
+    width: 50%;
+}
+.text-audio--absolute_image {
+   right: 20px;
+   bottom: 0px;
+   width: 180px;
+
+}
+
+}

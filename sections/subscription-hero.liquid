@@ -1,0 +1,156 @@
+{{ 'image-text-hero.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+.image-text-hero--logo_image {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+
+}
+
+.subscription--absolute_image {
+    position: absolute;
+    left: 0px;
+    bottom: -40px;
+    width: 120px;
+    height: auto;
+    z-index: 100;
+}
+.liquid--embed-div {
+    width: 100%;
+    min-width: 300px;
+    padding: 20px 0px;
+}
+
+.image-text-hero--text-div div{
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    /* For desktop: */
+   
+    .subscription--absolute_image {
+        left: 0px;
+        bottom: -20px;
+        width: 180px;
+    }
+    .liquid--embed-div {
+    width: 100%;
+    min-width: 300px;
+    padding: 20px 0px;
+}
+  }
+{%- endstyle -%}
+
+
+
+
+<div class="image-text-hero--ctr">
+  <div class="image-text-hero--image-div">
+    <img
+    src="{{ section.settings.image | image_url: height: 1500 }}"
+    alt="{{ section.settings.image.alt | escape }}"
+    loading="eager"
+    width="{{ section.settings.image.width }}"
+    height="{{ section.settings.image.height }}"
+    class="image-text-hero--image"
+  >
+  
+</div>
+  <div class="image-text-hero--text-div">
+    {% if section.settings.h1 != blank %}
+    <h1 class="h0">{{ section.settings.h1 }}</h1>
+    {% endif %}
+    <img
+    src="{{ section.settings.logo_image | image_url: height: 1000 }}"
+    alt="{{ section.settings.logo_image.alt | escape }}"
+    loading="eager"
+    width="{{ section.settings.logo_image.width }}"
+    height="{{ section.settings.logo_image.height }}"
+    class="image-text-hero--logo_image"
+    >
+    <span>{{ section.settings.p }}</span>
+    <a class="button button--primary" href="{{ section.settings.button_link }}">{{ section.settings.button_text }}</a>
+    <p class="h2" style="margin-block-end: 0em;">{{ section.settings.subtext }}</p>
+    <img
+    src="{{ section.settings.absolute_image | image_url: height: 1000 }}"
+    alt="{{ section.settings.absolute_image.alt | escape }}"
+    loading="eager"
+    width="{{ section.settings.absolute_image.width }}"
+    height="{{ section.settings.absolute_image.height }}"
+    class="subscription--absolute_image"
+    >
+    <div class="liquid--embed-div">
+        {{ section.settings.liquid }}
+    </div>
+  </div>
+  
+
+</div>
+
+
+{% schema %}
+{
+  "name": "Subscription Hero Section",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo_image",
+      "label": "Logo Image"
+    },
+    {
+      "type": "text",
+      "id": "h1",
+      "default": "Heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "p",
+      "default": "<p>Paragraph text goes here</p>",
+      "label": "Add your paragraph here"
+    },
+    {
+      "type": "text",
+      "id": "subtext",
+      "default": "Add your subtext here",
+      "label": "Subtext"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "default": "Button Text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Section Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "absolute_image",
+      "label": "Absolute Icon"
+    },
+    {
+    "type": "liquid",
+    "id": "liquid",
+    "label": "Audio Player",
+    "default": "Hello"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Subscription Hero Section"
+    }
+  ]
+}
+{% endschema %}

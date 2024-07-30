@@ -1,0 +1,144 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_collection_header_Nin3Y8": {
+      "type": "section-collection-header",
+      "blocks": {
+        "collection_3zJBdm": {
+          "type": "Collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LionMusic_Project_File.png",
+            "collection_title": "The Character Classics Program",
+            "collection_image": "shopify:\/\/shop_images\/gabriel-tovar-Y9RFMB7Gb94-unsplash_1_1.jpg",
+            "collection_description": "<h2>The Character Classics Program<\/h2><p>With the Character Classics Monthly Program you will have the tools and ability to influence and guide your kids through one positive character trait every month. By building and reinforcing one character trait every day for a month, children will experience continuous and progressive character development that will help bring success at home, at school, and throughout their lives. Parents, teachers, and anyone working with children see the power of this program in just a few weeks. You will receive one learning module each month from the Character Classics series.<\/p><p>Recommended as a monthly program (12 months) so that your child can learn one character trait per month. The 12 character traits are… The first month includes the book, CD, parent leader guide, grow chart & decals, tip sheet. $80 value ($25 book\/cd + $25 guide + $20 growth chart\/decals + $5 tip sheet + $5 video) for only $30 first month and $20 per following month.<\/p><p>Cancel anytime prior to next billing cycle.<\/p>",
+            "music_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0609\/4569\/4905\/files\/Twinkly.mp3?v=1708220852",
+            "button_text": "Learn More",
+            "button_link": "shopify:\/\/products\/the-character-classics-program",
+            "show_tag": false,
+            "tag": "Block Tag"
+          }
+        },
+        "collection_fzNMp9": {
+          "type": "Collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LionMusic_Project_File.png",
+            "collection_title": "ABC's of Character",
+            "collection_image": "shopify:\/\/shop_images\/jonathan-borba-Z1Oyw2snqn8-unsplash_1.jpg",
+            "collection_description": "<h2>ABC's of Character<\/h2><p>Kids and parents will love the beautifully, and sometimes humorously, illustrated book. Twenty-six exciting stories and whimsical poems with a character twist will delight children as they journey through the alphabet.<\/p>",
+            "music_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0609\/4569\/4905\/files\/Twinkly.mp3?v=1708220852",
+            "button_text": "Button Text",
+            "button_link": "",
+            "show_tag": false,
+            "tag": "Block Tag"
+          }
+        },
+        "collection_C9gEbM": {
+          "type": "Collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LittleLion.png",
+            "collection_title": "A Handbook for Life",
+            "collection_image": "shopify:\/\/shop_images\/young-boy-smiles-at-father-holding-baby-sister.jpg",
+            "collection_description": "<h2>A Handbook for Life<\/h2><p>These enlightening books provide wisdom you may need, wrapped in real-life situations. These include friendships, relationships, work life, family life and more, through the lenses of civility, forgiveness, loyalty and other themes, in short sections with oft-humorous comic book illustrations.<\/p>",
+            "music_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0609\/4569\/4905\/files\/Twinkly.mp3?v=1708220852",
+            "button_text": "Button Text",
+            "button_link": "",
+            "show_tag": false,
+            "tag": "Block Tag"
+          }
+        },
+        "collection_xkL6Fi": {
+          "type": "Collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_11_1.png",
+            "collection_title": "Mother Goose Tales",
+            "collection_image": "shopify:\/\/shop_images\/young-boy-smiles-at-father-holding-baby-sister.jpg",
+            "collection_description": "<h2>A Handbook for Life<\/h2><p>Choose from a variety of character building topics for your child<\/p>",
+            "music_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0609\/4569\/4905\/files\/Twinkly.mp3?v=1708220852",
+            "button_text": "Button Text",
+            "button_link": "",
+            "show_tag": true,
+            "tag": "Coming Soon"
+          }
+        },
+        "collection_jWdgef": {
+          "type": "Collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_11_1.png",
+            "collection_title": "Character Billders",
+            "collection_image": "shopify:\/\/shop_images\/young-boy-smiles-at-father-holding-baby-sister.jpg",
+            "collection_description": "<h2>A Handbook for Life<\/h2><p>Choose from a variety of character building topics for your child<\/p>",
+            "music_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0609\/4569\/4905\/files\/Twinkly.mp3?v=1708220852",
+            "button_text": "Button Text",
+            "button_link": "",
+            "show_tag": true,
+            "tag": "Coming Soon"
+          }
+        },
+        "collection_DfKXcb": {
+          "type": "Collection",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_11_1.png",
+            "collection_title": "More",
+            "collection_image": "shopify:\/\/shop_images\/young-boy-smiles-at-father-holding-baby-sister.jpg",
+            "collection_description": "<h2>A Handbook for Life<\/h2><p>Choose from a variety of character building topics for your child<\/p>",
+            "music_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0609\/4569\/4905\/files\/Twinkly.mp3?v=1708220852",
+            "button_text": "Button Text",
+            "button_link": "",
+            "show_tag": false,
+            "tag": "Block Tag"
+          }
+        }
+      },
+      "block_order": [
+        "collection_3zJBdm",
+        "collection_fzNMp9",
+        "collection_C9gEbM",
+        "collection_xkL6Fi",
+        "collection_jWdgef",
+        "collection_DfKXcb"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Life-Changing Music & Books",
+        "p": "Choose from a variety of character building topics for your child",
+        "image": "shopify:\/\/shop_images\/image_5_5.png",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "section_collection_header_Nin3Y8"
+  ]
+}

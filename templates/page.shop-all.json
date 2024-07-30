@@ -1,0 +1,166 @@
+{
+  "sections": {
+    "breadcrumbs_wxDcmf": {
+      "type": "breadcrumbs",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1 {text-align: center;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_FQLPia": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".h5 {font-size: 18px;}",
+        ".price {font-size: 16px;}",
+        "@media only screen and (min-width: 768px) {\/* For desktop: *\/ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
+      ],
+      "settings": {
+        "custom_id": "custom-id",
+        "title": "Music",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "music",
+        "products_to_show": 30,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_GkVqg9": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".h5 {font-size: 18px;}",
+        ".price {font-size: 16px;}",
+        "@media only screen and (min-width: 768px) {\/* For desktop: *\/ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
+      ],
+      "settings": {
+        "custom_id": "custom-id",
+        "title": "Books with Music",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "books-with-music",
+        "products_to_show": 30,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_wpwTXK": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+        ".h5 {font-size: 18px;}",
+        ".price {font-size: 16px;}",
+        "@media only screen and (min-width: 768px) {\/* For desktop: *\/ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
+      ],
+      "settings": {
+        "custom_id": "custom-id",
+        "title": "Books",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "books",
+        "products_to_show": 30,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_T4JEp4": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".h5 {font-size: 18px;}",
+        ".price {font-size: 16px;}",
+        "@media only screen and (min-width: 768px) {\/* For desktop: *\/ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
+      ],
+      "settings": {
+        "custom_id": "custom-id",
+        "title": "Parent, Leaders, & Teachers",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "parent-leaders-teachers",
+        "products_to_show": 30,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_wxDcmf",
+    "main",
+    "featured_collection_FQLPia",
+    "featured_collection_GkVqg9",
+    "featured_collection_wpwTXK",
+    "featured_collection_T4JEp4"
+  ]
+}
