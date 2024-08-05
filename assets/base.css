@@ -3184,11 +3184,23 @@ details-disclosure > details {
 .rte ul,
 .rte ol {
   list-style-position: inside;
+  list-style-type: "\2705";
+  /* list-style-image: url("https://cdn.shopify.com/s/files/1/0609/4569/4905/files/bxs-check-circle_1.svg?v=1722892017"); */
   padding-left: 2rem;
 }
 
 .rte li {
   list-style: inherit;
+  padding-bottom: 10px;
+  
+}
+
+
+
+.rte li::marker {
+  font-size: 1.5rem;
+  line-height: 30px;
+  
 }
 
 .rte li:last-child {

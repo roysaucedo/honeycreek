@@ -54,6 +54,16 @@
             "show_tag": false,
             "tag": "Coming Soon"
           }
+        },
+        "collection_4RbfwM": {
+          "type": "Collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LionWthFlag.png",
+            "collection_title": "The Amazing Flag",
+            "link": "shopify:\/\/collections\/mother-goose-tales",
+            "show_tag": false,
+            "tag": "Coming Soon"
+          }
         }
       },
       "block_order": [
@@ -61,12 +71,12 @@
         "collection_CBj3Rm",
         "collection_kRQeWw",
         "collection_eNiDzE",
-        "collection_dx8mMt"
+        "collection_dx8mMt",
+        "collection_4RbfwM"
       ],
       "settings": {
         "heading": "Follow The Guides",
         "p": "",
-        "image": "shopify:\/\/shop_images\/image_5_5.png",
         "link": "shopify:\/\/pages\/shop-all",
         "padding_top": 36,
         "padding_bottom": 0

@@ -77,6 +77,15 @@
             "icon_3": "star",
             "heading_3": "Award Winning Products"
           }
+        },
+        "collapsible_tab_FNVENY": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "icon": "none",
+            "content": "<p><strong>Dimensions (Overall):<\/strong>8 Inches (H) x 1 Inches (W) x 10 Inches (D)<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -89,7 +98,8 @@
         "popup_7RC6wP",
         "description",
         "share",
-        "icon_with_text_ifa7DG"
+        "icon_with_text_ifa7DG",
+        "collapsible_tab_FNVENY"
       ],
       "custom_css": [
 

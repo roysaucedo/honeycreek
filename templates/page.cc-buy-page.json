@@ -66,38 +66,63 @@
         "padding_bottom": 52
       }
     },
-    "featured_collection_jQADUg": {
-      "type": "featured-collection",
-      "custom_css": [
-        ".h5 {font-size: 18px;}",
-        ".price {font-size: 16px;}",
-        "@media only screen and (min-width: 768px) {\/* For desktop: *\/ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
+    "section_reviews_slider_ADhXYx": {
+      "type": "section-reviews-slider",
+      "blocks": {
+        "slide_AG37xx": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_24_1.png",
+            "rich_text": "<p>“A few of the students were crying because they felt so happy because they were touched by the music and the message. <span style=\"text-decoration:underline\"><strong>This is exactly what our school needed at this time.<\/strong><\/span>”<\/p><p><strong>Denis C. - Principal<\/strong><\/p>"
+          }
+        },
+        "slide_r8dPDG": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_24_1.png",
+            "rich_text": "<p>\"I really want to thank you for the character book and the CD. It was fabulous. Also the vocabulary like honesty, kindness, [and] respect.\"<\/p><p><strong>Chaysity E. - Elementary Student<\/strong><\/p>"
+          }
+        },
+        "slide_iyiGmC": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_24_1.png",
+            "rich_text": "<p>\"I sing the songs every day. And I also read the book. I loved everything.\"<\/p><p><strong>Sidney W. - Elementary Student<\/strong><\/p>"
+          }
+        },
+        "slide_je8VXV": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_24_1.png",
+            "rich_text": "<p>\"This program is good for any parent- it’s so easy to use! I love the fact that it not only combines character with music, but it’s classical music. As a home-schooler, it’s good for character training AND music appreciation.\"<\/p><p><strong>Tina C. - Parent<\/strong><\/p>"
+          }
+        },
+        "slide_Lga46A": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_24_1.png",
+            "rich_text": "<p>\"I feel that I have a goal to reach after reading the <em>Handbook for Life<\/em>. It has made me so confident.\"<\/p><p><strong>- Middle School Student<\/strong><\/p>"
+          }
+        },
+        "slide_6DhRk9": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_24_1.png",
+            "rich_text": "<p>\"My daughter’s teacher was amazed at our little girl when she reached out to a lonely and frightened new student. I told her it was something my daughter learned from her<em>Character Classics <\/em>selection, “Find a Friend.\"<\/p><p><strong>- Parent<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_AG37xx",
+        "slide_r8dPDG",
+        "slide_iyiGmC",
+        "slide_je8VXV",
+        "slide_Lga46A",
+        "slide_6DhRk9"
       ],
       "settings": {
-        "custom_id": "custom-id",
-        "title": "Purchase Individually (Monthly Program Available)",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "character-classics",
-        "products_to_show": 30,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 72
+        "h2": "Customer Reviews",
+        "h3": ""
       }
     },
     "subscription_hero_BNaikr": {
@@ -181,10 +206,10 @@
         "row_rtUX74": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Starter_Kit_7.jpg",
+            "image": "shopify:\/\/shop_images\/Starter_Kit.jpg",
             "caption": "",
             "heading": "1st Month - Starter Kit",
-            "text": "<h3>First Month Starter Kit: $39.95 ($100+ value)<\/h3><ul><li>10-Track Classical Music Album<\/li><li>Activity Resource Book<\/li><li>Parent\/Leader Guide<em> (Optional: Inspirational Parent\/Leader Guide Available Upon Request)<\/em><\/li><li>Growth Binder<\/li><li>Growth Chart<\/li><li>Growth Chart Sticker<\/li><li>Welcome\/Intro Usage Sheet<\/li><li>Short Character Boost Video<\/li><li><strong>Free Shipping!<\/strong><\/li><\/ul><p>By building and reinforcing one character trait every day for a month, children will experience continuous and progressive character development that will help bring success at home, at school, and throughout their lives. <\/p>",
+            "text": "<h3>First Month Starter Kit: $39.95 ($100+ value)<\/h3><ul><li>10-Track Classical Music Album<\/li><li>Activity Resource Book<\/li><li>Parent\/Leader Guide<em> <\/em><\/li><li>Growth Binder<\/li><li>Growth Chart<\/li><li>Growth Chart Sticker<\/li><li>Welcome\/Intro Usage Sheet<\/li><li>Short Character Boost Video<\/li><li><strong>Free Shipping!<\/strong><\/li><\/ul><p>By building and reinforcing one character trait every day for a month, children will experience continuous and progressive character development that will help bring success at home, at school, and throughout their lives. <\/p>",
             "button_label": "BUY NOW",
             "button_link": "shopify:\/\/products\/the-character-classics-program"
           }
@@ -234,6 +259,40 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection_jQADUg": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".h5 {font-size: 18px;}",
+        ".price {font-size: 16px;}",
+        "@media only screen and (min-width: 768px) {\/* For desktop: *\/ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
+      ],
+      "settings": {
+        "custom_id": "custom-id",
+        "title": "Purchase Individually (Monthly Program Available)",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "character-classics",
+        "products_to_show": 30,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 72
+      }
+    },
     "custom_liquid_6mW7qB": {
       "type": "custom-liquid",
       "disabled": true,
@@ -245,65 +304,6 @@
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "section_reviews_slider_ADhXYx": {
-      "type": "section-reviews-slider",
-      "blocks": {
-        "slide_AG37xx": {
-          "type": "Slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_24_1.png",
-            "rich_text": "<p>“A few of the students were crying because they felt so happy because they were touched by the music and the message. <span style=\"text-decoration:underline\"><strong>This is exactly what our school needed at this time.<\/strong><\/span>”<\/p><p><strong>Denis C. - Principal<\/strong><\/p>"
-          }
-        },
-        "slide_r8dPDG": {
-          "type": "Slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_24_1.png",
-            "rich_text": "<p>\"I really want to thank you for the character book and the CD. It was fabulous. Also the vocabulary like honesty, kindness, [and] respect.\"<\/p><p><strong>Chaysity E. - Elementary Student<\/strong><\/p>"
-          }
-        },
-        "slide_iyiGmC": {
-          "type": "Slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_24_1.png",
-            "rich_text": "<p>\"I sing the songs every day. And I also read the book. I loved everything.\"<\/p><p><strong>Sidney W. - Elementary Student<\/strong><\/p>"
-          }
-        },
-        "slide_je8VXV": {
-          "type": "Slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_24_1.png",
-            "rich_text": "<p>\"This program is good for any parent- it’s so easy to use! I love the fact that it not only combines character with music, but it’s classical music. As a home-schooler, it’s good for character training AND music appreciation.\"<\/p><p><strong>Tina C. - Parent<\/strong><\/p>"
-          }
-        },
-        "slide_Lga46A": {
-          "type": "Slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_24_1.png",
-            "rich_text": "<p>\"I feel that I have a goal to reach after reading the <em>Handbook for Life<\/em>. It has made me so confident.\"<\/p><p><strong>- Middle School Student<\/strong><\/p>"
-          }
-        },
-        "slide_6DhRk9": {
-          "type": "Slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_24_1.png",
-            "rich_text": "<p>\"My daughter’s teacher was amazed at our little girl when she reached out to a lonely and frightened new student. I told her it was something my daughter learned from her<em>Character Classics <\/em>selection, “Find a Friend.\"<\/p><p><strong>- Parent<\/strong><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "slide_AG37xx",
-        "slide_r8dPDG",
-        "slide_iyiGmC",
-        "slide_je8VXV",
-        "slide_Lga46A",
-        "slide_6DhRk9"
-      ],
-      "settings": {
-        "h2": "Customer Reviews",
-        "h3": ""
       }
     },
     "custom_liquid_iY9pYJ": {
@@ -400,14 +400,14 @@
     "subscription_hero_QfPyYj",
     "custom_liquid_VQDaA8",
     "rich_text_g4Gadb",
-    "featured_collection_jQADUg",
+    "section_reviews_slider_ADhXYx",
     "subscription_hero_BNaikr",
     "image_text_hero_btcBMG",
     "image_with_text_MJkwYg",
     "custom_liquid_4kkmFM",
     "multirow_WbizRx",
+    "featured_collection_jQADUg",
     "custom_liquid_6mW7qB",
-    "section_reviews_slider_ADhXYx",
     "custom_liquid_iY9pYJ",
     "video_7jwNLx",
     "170961959994ceef1e",

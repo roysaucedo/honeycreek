@@ -228,34 +228,6 @@
             "link_text": "Shop Now"
           }
         },
-        "card_jmAG8g": {
-          "type": "Card",
-          "settings": {
-            "span_width": "1",
-            "heading": "Character Classics",
-            "description": "Character Classics is a unique blend of memorable melodies and delightful, kid-friendly lyrics that help children discover the best of two worlds: Classical Music and Positive Values.",
-            "image": "shopify:\/\/shop_images\/Kindness_Book_CD_Together.png",
-            "background_image": "shopify:\/\/shop_images\/Frame_6_5ef51660-dc33-4983-8392-f40c2ff2b6d7.png",
-            "background_image_mobile": "shopify:\/\/shop_images\/Frame_12.jpg",
-            "mobile_card_size": 700,
-            "link": "https:\/\/honeycreeku.com\/pages\/character-classics-program-buy-page",
-            "link_text": "Shop Now"
-          }
-        },
-        "card_njJ4VW": {
-          "type": "Card",
-          "settings": {
-            "span_width": "2",
-            "heading": "The Amazing Flag",
-            "description": "Character Classics is a unique blend of memorable melodies and delightful, kid-friendly lyrics that help children discover the best of two worlds: Classical Music and Positive Values.",
-            "image": "shopify:\/\/shop_images\/a_5.png",
-            "background_image": "shopify:\/\/shop_images\/Frame_10_1.svg",
-            "background_image_mobile": "shopify:\/\/shop_images\/Frame_12_6.jpg",
-            "mobile_card_size": 600,
-            "link": "https:\/\/honeycreeku.com\/pages\/character-classics-program-buy-page",
-            "link_text": "Shop Now"
-          }
-        },
         "card_RGP8WW": {
           "type": "Card",
           "settings": {
@@ -267,6 +239,20 @@
             "background_image_mobile": "shopify:\/\/shop_images\/Frame_7.jpg",
             "mobile_card_size": 600,
             "link": "shopify:\/\/collections\/a-handbook-for-life",
+            "link_text": "Shop Now"
+          }
+        },
+        "card_jmAG8g": {
+          "type": "Card",
+          "settings": {
+            "span_width": "2",
+            "heading": "Character Classics",
+            "description": "Character Classics is a unique blend of memorable melodies and delightful, kid-friendly lyrics that help children discover the best of two worlds: Classical Music and Positive Values.",
+            "image": "shopify:\/\/shop_images\/Kindness_Book_CD_Together.png",
+            "background_image": "shopify:\/\/shop_images\/Frame_6_9.jpg",
+            "background_image_mobile": "shopify:\/\/shop_images\/Frame_12.jpg",
+            "mobile_card_size": 700,
+            "link": "https:\/\/honeycreeku.com\/pages\/character-classics-program-buy-page",
             "link_text": "Shop Now"
           }
         },
@@ -284,20 +270,6 @@
             "link_text": "Shop Now"
           }
         },
-        "card_DTHJHT": {
-          "type": "Card",
-          "settings": {
-            "span_width": "2",
-            "heading": "Character Tales",
-            "description": "Character Classics is a unique blend of memorable melodies and delightful, kid-friendly lyrics that help children discover the best of two worlds: Classical Music and Positive Values.",
-            "image": "shopify:\/\/shop_images\/a_5.png",
-            "background_image": "shopify:\/\/shop_images\/Frame_10_1.svg",
-            "background_image_mobile": "shopify:\/\/shop_images\/Frame_12_6.jpg",
-            "mobile_card_size": 600,
-            "link": "https:\/\/honeycreeku.com\/pages\/character-classics-program-buy-page",
-            "link_text": "Shop Now"
-          }
-        },
         "card_nR4BRp": {
           "type": "Card",
           "settings": {
@@ -312,8 +284,37 @@
             "link_text": "Shop Now"
           }
         },
+        "card_DTHJHT": {
+          "type": "Card",
+          "settings": {
+            "span_width": "1",
+            "heading": "Coming Soon: Character Tales",
+            "description": "Character Classics is a unique blend of memorable melodies and delightful, kid-friendly lyrics that help children discover the best of two worlds: Classical Music and Positive Values.",
+            "image": "shopify:\/\/shop_images\/a_5.png",
+            "background_image": "shopify:\/\/shop_images\/Frame_10_1.svg",
+            "background_image_mobile": "shopify:\/\/shop_images\/Frame_12_6.jpg",
+            "mobile_card_size": 600,
+            "link": "https:\/\/honeycreeku.com\/pages\/character-classics-program-buy-page",
+            "link_text": "Shop Now"
+          }
+        },
+        "card_njJ4VW": {
+          "type": "Card",
+          "settings": {
+            "span_width": "1",
+            "heading": "The Amazing Flag",
+            "description": "Character Classics is a unique blend of memorable melodies and delightful, kid-friendly lyrics that help children discover the best of two worlds: Classical Music and Positive Values.",
+            "image": "shopify:\/\/shop_images\/a_5.png",
+            "background_image": "shopify:\/\/shop_images\/Frame_10_1.svg",
+            "background_image_mobile": "shopify:\/\/shop_images\/Frame_12_6.jpg",
+            "mobile_card_size": 600,
+            "link": "https:\/\/honeycreeku.com\/pages\/character-classics-program-buy-page",
+            "link_text": "Shop Now"
+          }
+        },
         "card_tyF3HL": {
           "type": "Card",
+          "disabled": true,
           "settings": {
             "span_width": "1",
             "heading": "Shop All",
@@ -329,12 +330,12 @@
       },
       "block_order": [
         "card_yPMQAB",
-        "card_jmAG8g",
-        "card_njJ4VW",
         "card_RGP8WW",
+        "card_jmAG8g",
         "card_63ydbx",
-        "card_DTHJHT",
         "card_nR4BRp",
+        "card_DTHJHT",
+        "card_njJ4VW",
         "card_tyF3HL"
       ],
       "settings": {
@@ -429,10 +430,19 @@
             "tag": "Coming Soon"
           }
         },
-        "collection_PyYfQy": {
+        "collection_jX6n38": {
           "type": "Collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_45_ffd13bf4-bb09-4e30-ae48-86363ee5b23b.png",
+            "collection_title": "Collection Title",
+            "link": "",
+            "show_tag": false,
+            "tag": "Block Tag"
+          }
+        },
+        "collection_Vh3JFN": {
+          "type": "Collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LionWthFlag.png",
             "collection_title": "Mother Goose Tales",
             "link": "",
             "show_tag": true,
@@ -445,7 +455,8 @@
         "collection_R3Cmiz",
         "collection_7Vyt36",
         "collection_EB7M4R",
-        "collection_PyYfQy"
+        "collection_jX6n38",
+        "collection_Vh3JFN"
       ],
       "disabled": true,
       "settings": {
