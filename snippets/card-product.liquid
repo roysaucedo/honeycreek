@@ -193,7 +193,12 @@
               {% if card_product.metafields.custom.collection_description != blank %}
               <p class="h4 collection-title-metafield-description">{{ card_product.metafields.custom.collection_description }}</p>
               {% endif %}
+              {% if card_product.metafields.custom.collection_title != blank %}
               <p class="h4 collection-title-metafield">{{ card_product.metafields.custom.collection_title }}</p>
+              {% endif %}
+              {% if card_product.metafields.custom.available_date != blank %}
+              <p class="h4 collection-title-metafield">{{ card_product.metafields.custom.available_date }}</p>
+              {% endif %}
             </a>
           </h3>
           <div class="card-information">
