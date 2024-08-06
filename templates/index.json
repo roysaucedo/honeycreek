@@ -5,7 +5,7 @@
       "settings": {
         "h1": "Better Kids Make A Better World",
         "p": "<p>Honey Creek U aims to positively influence families by creating life-changing products and materials that inspire.<\/p>",
-        "subtext": "From the creators of Bullfrog, Butterflies, and Music Machine",
+        "subtext": "From the creators of Bullfrog & Butterflies and Music Machine",
         "button_text": "Explore Our Collections",
         "button_link": "shopify:\/\/pages\/shop-all",
         "image": "shopify:\/\/shop_images\/Hero-Img-HoneyCreek_2.png",
@@ -293,9 +293,9 @@
           "type": "Card",
           "settings": {
             "span_width": "1",
-            "heading": "Coming Soon: Character Tales",
+            "heading": "Character Tales",
             "description": "Character Classics is a unique blend of memorable melodies and delightful, kid-friendly lyrics that help children discover the best of two worlds: Classical Music and Positive Values.",
-            "tag": "",
+            "tag": "Coming Soon",
             "image": "shopify:\/\/shop_images\/a_5.png",
             "background_image": "shopify:\/\/shop_images\/Frame_10_1.svg",
             "background_image_mobile": "shopify:\/\/shop_images\/Frame_12_6.jpg",

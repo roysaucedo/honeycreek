@@ -64,6 +64,16 @@
             "show_tag": false,
             "tag": "Coming Soon"
           }
+        },
+        "collection_68TfMd": {
+          "type": "Collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_5_5.png",
+            "collection_title": "Shop All",
+            "link": "shopify:\/\/pages\/shop-all",
+            "show_tag": false,
+            "tag": ""
+          }
         }
       },
       "block_order": [
@@ -72,7 +82,8 @@
         "collection_kRQeWw",
         "collection_eNiDzE",
         "collection_dx8mMt",
-        "collection_4RbfwM"
+        "collection_4RbfwM",
+        "collection_68TfMd"
       ],
       "settings": {
         "heading": "Follow The Guides",
