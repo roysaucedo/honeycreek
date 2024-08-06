@@ -71,7 +71,7 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "box",
-            "heading_1": "FREE SHIPPING",
+            "heading_1": "Free Shipping",
             "icon_2": "heart",
             "heading_2": "Top-Notch Customer Support",
             "icon_3": "star",
@@ -81,9 +81,9 @@
         "collapsible_tab_FNVENY": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Specifications",
+            "heading": "Product Specifications",
             "icon": "none",
-            "content": "<p><strong>Dimensions (Overall):<\/strong>8 Inches (H) x 1 Inches (W) x 10 Inches (D)<\/p>",
+            "content": "<p>{{ product.metafields.custom.product_specifications | metafield_tag }}<\/p>",
             "page": ""
           }
         }
