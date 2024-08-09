@@ -59,6 +59,9 @@
   
 </div>
   <div class="image-text-hero--text-div">
+    {% if section.settings.subheading != blank %}
+    <span class="h2">{{ section.settings.subheading }}</span>
+    {% endif %}
     {% if section.settings.h1 != blank %}
     <h1 class="h0">{{ section.settings.h1 }}</h1>
     {% endif %}
@@ -100,6 +103,12 @@
       "type": "image_picker",
       "id": "logo_image",
       "label": "Logo Image"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "default": "Subheading",
+      "label": "Subheading"
     },
     {
       "type": "text",
