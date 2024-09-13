@@ -237,8 +237,8 @@
             "description": "These enlightening books provide wisdom you may need, wrapped in real-life situations.",
             "tag": "",
             "image": "shopify:\/\/shop_images\/image_14_2.png",
-            "background_image": "shopify:\/\/shop_images\/Frame_7_2d9c33a4-1186-42c2-818e-fad73bc4bef5.png",
-            "background_image_mobile": "shopify:\/\/shop_images\/Frame_7.jpg",
+            "background_image": "shopify:\/\/shop_images\/Frame_14_9.jpg",
+            "background_image_mobile": "shopify:\/\/shop_images\/Frame_15_6.jpg",
             "mobile_card_size": 600,
             "link": "shopify:\/\/collections\/a-handbook-for-life",
             "link_text": "Shop Now"
@@ -295,13 +295,13 @@
             "span_width": "1",
             "heading": "Character Tales",
             "description": "Character Classics is a unique blend of memorable melodies and delightful, kid-friendly lyrics that help children discover the best of two worlds: Classical Music and Positive Values.",
-            "tag": "Coming Soon",
+            "tag": "",
             "image": "shopify:\/\/shop_images\/a_5.png",
-            "background_image": "shopify:\/\/shop_images\/Frame_10_1.svg",
-            "background_image_mobile": "shopify:\/\/shop_images\/Frame_12_6.jpg",
-            "mobile_card_size": 600,
+            "background_image": "shopify:\/\/shop_images\/Frame_10_10.jpg",
+            "background_image_mobile": "shopify:\/\/shop_images\/Frame_13_9.jpg",
+            "mobile_card_size": 500,
             "link": "https:\/\/honeycreeku.com\/pages\/character-classics-program-buy-page",
-            "link_text": "Shop Now"
+            "link_text": "Coming Soon"
           }
         },
         "card_njJ4VW": {
@@ -309,13 +309,13 @@
           "settings": {
             "span_width": "1",
             "heading": "The Amazing Flag",
-            "description": "Character Classics is a unique blend of memorable melodies and delightful, kid-friendly lyrics that help children discover the best of two worlds: Classical Music and Positive Values.",
-            "tag": "",
+            "description": "The Amazing Flag Student Activity Book is filled with entertaining, fun activities, and facts that will create a new awareness of Old Glory and give kids a new respect and appreciation for our flag and what it stands for.",
+            "tag": "Save $5 | Limited Time Offer",
             "image": "shopify:\/\/shop_images\/a_5.png",
             "background_image": "shopify:\/\/shop_images\/Frame_10_1.svg",
             "background_image_mobile": "shopify:\/\/shop_images\/Frame_12_6.jpg",
             "mobile_card_size": 600,
-            "link": "https:\/\/honeycreeku.com\/pages\/character-classics-program-buy-page",
+            "link": "shopify:\/\/collections\/the-amazing-flag",
             "link_text": "Shop Now"
           }
         },
@@ -352,130 +352,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_whjGBD": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_wTiJJY": {
-          "type": "heading",
-          "settings": {
-            "heading": "Explore Our Collections",
-            "heading_size": "h1"
-          }
-        },
-        "text_RRCVaW": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "button_TBUfxG": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_wTiJJY",
-        "text_RRCVaW",
-        "button_TBUfxG"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 12
-      }
-    },
-    "section_collection_icon_RfRzcb": {
-      "type": "section-collection-icon",
-      "blocks": {
-        "collection_ArbAK7": {
-          "type": "Collection",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_2_53.png",
-            "collection_title": "ABC's Of Character",
-            "link": "shopify:\/\/pages\/abcs-for-character-navigation",
-            "show_tag": true,
-            "tag": "Coming Soon"
-          }
-        },
-        "collection_R3Cmiz": {
-          "type": "Collection",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_44_3ffad478-2d59-4797-9b72-ba913b65194c.png",
-            "collection_title": "Character Classics",
-            "link": "shopify:\/\/products\/the-character-classics-program",
-            "show_tag": false,
-            "tag": "Block Tag"
-          }
-        },
-        "collection_7Vyt36": {
-          "type": "Collection",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1_90.png",
-            "collection_title": "Handbook For Life",
-            "link": "shopify:\/\/collections\/a-handbook-for-life",
-            "show_tag": false,
-            "tag": "Block Tag"
-          }
-        },
-        "collection_EB7M4R": {
-          "type": "Collection",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_45_ffd13bf4-bb09-4e30-ae48-86363ee5b23b.png",
-            "collection_title": "Character Billders",
-            "link": "",
-            "show_tag": true,
-            "tag": "Coming Soon"
-          }
-        },
-        "collection_jX6n38": {
-          "type": "Collection",
-          "settings": {
-            "collection_title": "Collection Title",
-            "link": "",
-            "show_tag": false,
-            "tag": "Block Tag"
-          }
-        },
-        "collection_Vh3JFN": {
-          "type": "Collection",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LionWthFlag.png",
-            "collection_title": "Mother Goose Tales",
-            "link": "",
-            "show_tag": true,
-            "tag": "Coming Soon"
-          }
-        }
-      },
-      "block_order": [
-        "collection_ArbAK7",
-        "collection_R3Cmiz",
-        "collection_7Vyt36",
-        "collection_EB7M4R",
-        "collection_jX6n38",
-        "collection_Vh3JFN"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "Explore Our Products",
-        "p": "",
-        "image": "shopify:\/\/shop_images\/image_5_5.png",
-        "link": "shopify:\/\/collections\/all",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "pagefly-home": {
       "type": "pagefly-home",
       "disabled": true,
@@ -492,8 +368,6 @@
     "section_values_v2_tm8CeY",
     "image_with_text_3bKwHT",
     "section_collection_card_grid_R4KNtk",
-    "rich_text_whjGBD",
-    "section_collection_icon_RfRzcb",
     "pagefly-home"
   ]
 }

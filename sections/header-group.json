@@ -16,6 +16,9 @@
       "block_order": [
         "announcement-bar-0"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "color_scheme": "accent-2",
         "show_line_separator": false,

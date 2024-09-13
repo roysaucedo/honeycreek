@@ -51,6 +51,7 @@
           "type": "popup",
           "settings": {
             "text": "Why Do You Offer a Physical CD & Digital Download?",
+            "modal_image": "shopify:\/\/shop_images\/modal-star.png",
             "page": "physical-cd-digital-download"
           }
         },

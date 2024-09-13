@@ -12,6 +12,7 @@
       "type": "subscription-hero",
       "settings": {
         "logo_image": "shopify:\/\/shop_images\/CharacterClassics_Logo_w-shadow.png",
+        "subheading": "BEST VALUE",
         "h1": "",
         "p": "<p>Character Classics is an extraordinary blend of memorable melodies and captivating, kid friendly lyrics that help children discover the best of two worlds: Classical music and foundational values. Explore our incredible 12-Month Continuity program and become part of the Character Classic Family! <\/p>",
         "subtext": "Explore our Music Library!",
@@ -128,6 +129,7 @@
     "subscription_hero_BNaikr": {
       "type": "subscription-hero",
       "settings": {
+        "subheading": "",
         "h1": "12-Month Continuity",
         "p": "<p>Utilizing classical music, this unique monthly program will give you the tools and ability to influence and guide your kids through one positive character trait every month.<\/p>",
         "subtext": "",
@@ -206,7 +208,7 @@
         "row_rtUX74": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Starter_Kit.jpg",
+            "image": "shopify:\/\/shop_images\/Starter_Kit_1.jpg",
             "caption": "",
             "heading": "1st Month - Starter Kit",
             "text": "<h3>First Month Starter Kit: $39.95 ($100+ value)<\/h3><ul><li> 10-Track Classical Music Album<\/li><li> Activity Resource Book<\/li><li> Parent\/Leader Guide<em> <\/em><\/li><li> Growth Binder<\/li><li> Growth Chart<\/li><li> Growth Chart Sticker<\/li><li> Welcome\/Growth Usage Sheet<\/li><li> Monthly Growth Boost Sheet<\/li><li> Short Character Boost Video<\/li><li><strong> Free Shipping!<\/strong><\/li><\/ul><p>By building and reinforcing one character trait every day for a month, children will experience continuous and progressive character development that will help bring success at home, at school, and throughout their lives. <\/p>",
@@ -242,6 +244,10 @@
         "row_rtUX74",
         "row_p4tFGd",
         "row_fhBnr6"
+      ],
+      "custom_css": [
+        ".image-with-text__media {height: auto; border: 0px;}",
+        ".image-with-text__media img {height: auto;}"
       ],
       "settings": {
         "image_height": "adapt",

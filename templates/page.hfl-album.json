@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "image_banner_K7Fa8B": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_145_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-hfl-music",
+      "custom_css": [
+        "h1 {display: none;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "17260006886823ea9c": {
+      "type": "apps",
+      "blocks": {
+        "common_ninja_audio_player_app_block_ciBaNf": {
+          "type": "shopify:\/\/apps\/common-ninja-audio-player\/blocks\/app-block\/acde948c-1624-41bc-ae85-7c56cb077c19",
+          "settings": {
+            "isVisible": true,
+            "appId": "5ed12a6d-49c5-4c4f-8567-5bb91be6a15f"
+          }
+        }
+      },
+      "block_order": [
+        "common_ninja_audio_player_app_block_ciBaNf"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collection_header_text_UL3QXi": {
+      "type": "collection-header-text",
+      "blocks": {
+        "heading_QDK7nT": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_hgR6pR": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_QDK7nT",
+        "text_hgR6pR"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "image_banner_K7Fa8B",
+    "main",
+    "17260006886823ea9c",
+    "collection_header_text_UL3QXi"
+  ]
+}

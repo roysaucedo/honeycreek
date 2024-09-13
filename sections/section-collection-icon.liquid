@@ -26,13 +26,13 @@
         
         {% for block in section.blocks %}
             <a href="{{ block.settings.link }}" class="collection-header--icon">
-
-              {% if block.settings.show_tag == true %}
+              <div>
+                {% if block.settings.show_tag == true %}
               <div class="collection-icon-tag">
                 <span>{{ block.settings.tag }}</span>
               </div>
               {% endif %}
-              <div>
+              
                 {% if block.settings.image != blank %}
                 <img
                 src="{{ block.settings.image | image_url: height: 1500 }}"
