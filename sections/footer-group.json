@@ -60,7 +60,7 @@
             "image": "shopify:\/\/shop_images\/LittleLion-Ducklings_1.png",
             "collection_title": "Mother Goose Tales",
             "link": "shopify:\/\/collections\/mother-goose-tales",
-            "show_tag": false,
+            "show_tag": true,
             "tag": "Coming Soon"
           }
         },
