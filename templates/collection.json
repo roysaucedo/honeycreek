@@ -26,7 +26,7 @@
         "p": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}</p>",
         "button_text": "",
         "button_link": "",
-        "audio": "{{ collection.metafields.custom.audio_player_widget_snippet | metafield_tag }}",
+        "audio": "<script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer></script>\n<div class=\"{{ collection.metafields.custom.audio_player_widget_class | metafield_tag }}\"></div>",
         "absolute_image": "{{ collection.image }}"
       }
     },
