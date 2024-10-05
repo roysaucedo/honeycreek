@@ -26,7 +26,7 @@
         "p": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}</p>",
         "button_text": "",
         "button_link": "",
-        "audio": "<script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer></script>\n<div class=\"{{ collection.metafields.custom.audio_player_widget_class | metafield_tag }}\"></div>\n<script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer></script>\n<div class=\"commonninja_component pid-aa0aa04e-0cfc-4d13-9a46-8c5177ebfa07\"></div>",
+        "audio": "<script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer></script>\n<div class=\"commonninja_component pid-aa0aa04e-0cfc-4d13-9a46-8c5177ebfa07\"></div>",
         "absolute_image": "{{ collection.image }}"
       }
     },
