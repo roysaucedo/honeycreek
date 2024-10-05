@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "breadcrumbs_VF97BK": {
@@ -19,11 +28,11 @@
       "type": "collection-text-audio-player",
       "settings": {
         "h1": "{{ page.title }}",
-        "p": "<p> An exciting series for kids and parents that creates a solid foundation of strong character traits to last a lifetime. <em>ABC’S of Character <\/em>is a unique tool that teaches kids significant life skills that will help guide them in their everyday lives and those around them. <\/p><p>In this series kids will dive into extraordinary stories, creative music, and fun activities.There is more to discover and uncover in the <em>ABC’s of Character<\/em> series, which takes you on a journey through the alphabet to develop foundational character traits letter by letter.<\/p>",
+        "p": "<p> An exciting series for kids and parents that creates a solid foundation of strong character traits to last a lifetime. <em>ABC’S of Character </em>is a unique tool that teaches kids significant life skills that will help guide them in their everyday lives and those around them. </p><p>In this series kids will dive into extraordinary stories, creative music, and fun activities.There is more to discover and uncover in the <em>ABC’s of Character</em> series, which takes you on a journey through the alphabet to develop foundational character traits letter by letter.</p>",
         "button_text": "",
         "button_link": "",
-        "audio": "<script src=\"https:\/\/cdn.commoninja.com\/sdk\/latest\/commonninja.js\" defer><\/script>\n<div class=\"commonninja_component pid-a62ce1e2-95a1-4d5b-bbfe-275e20e39f1d\"><\/div>",
-        "absolute_image": "shopify:\/\/shop_images\/Frame_2_53.png"
+        "audio": "<script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer></script>\n<div class=\"commonninja_component pid-7fef9cc7-83d5-4528-bf3b-063128abb0a7\"></div>",
+        "absolute_image": "shopify://shop_images/Frame_2_53.png"
       }
     },
     "collection_header_text_R8dtrk": {
@@ -39,7 +48,7 @@
         "text_yYtDak": {
           "type": "text",
           "settings": {
-            "text": "<p> An exciting series for kids and parents that creates a solid foundation of strong character traits to last a lifetime. <em>ABC’S of Character <\/em>is a unique tool that teaches kids significant life skills that will help guide them in their everyday lives and those around them. <\/p><p>In this series kids will dive into extraordinary stories, creative music, and fun activities.There is more to discover and uncover in the <em>ABC’s of Character<\/em> series, which takes you on a journey through the alphabet to develop foundational character traits letter by letter.<\/p>"
+            "text": "<p> An exciting series for kids and parents that creates a solid foundation of strong character traits to last a lifetime. <em>ABC’S of Character </em>is a unique tool that teaches kids significant life skills that will help guide them in their everyday lives and those around them. </p><p>In this series kids will dive into extraordinary stories, creative music, and fun activities.There is more to discover and uncover in the <em>ABC’s of Character</em> series, which takes you on a journey through the alphabet to develop foundational character traits letter by letter.</p>"
           }
         }
       },
@@ -49,7 +58,7 @@
       ],
       "disabled": true,
       "settings": {
-        "absolute_image": "shopify:\/\/shop_images\/Frame_2_53.png",
+        "absolute_image": "shopify://shop_images/Frame_2_53.png",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -71,7 +80,7 @@
         "text_qNYMmY": {
           "type": "text",
           "settings": {
-            "text": "<p>A Fun Program for Kids and Families that Helps Build Lives for a Brighter Future<\/p><p>What makes <em>ABC's of Character<\/em> unique is that it does not simply encourage kids<br\/>to DO good, but to BE good; rather than emphasizing making good choices,<br\/>it encourages being the kind of person who makes good choices.<\/p>"
+            "text": "<p>A Fun Program for Kids and Families that Helps Build Lives for a Brighter Future</p><p>What makes <em>ABC's of Character</em> unique is that it does not simply encourage kids<br/>to DO good, but to BE good; rather than emphasizing making good choices,<br/>it encourages being the kind of person who makes good choices.</p>"
           }
         }
       },
@@ -94,7 +103,7 @@
       "custom_css": [
         ".h5 {font-size: 18px;}",
         ".price {font-size: 16px;}",
-        "@media only screen and (min-width: 768px) {\/* For desktop: *\/ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
+        "@media only screen and (min-width: 768px) {/* For desktop: */ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
       ],
       "settings": {
         "custom_id": "custom-id",
@@ -128,13 +137,13 @@
       "custom_css": [
         ".h5 {font-size: 18px;}",
         ".price {font-size: 16px;}",
-        "@media only screen and (min-width: 768px) {\/* For desktop: *\/ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
+        "@media only screen and (min-width: 768px) {/* For desktop: */ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
       ],
       "settings": {
         "custom_id": "custom-id",
         "title": "Bundle & Save",
         "heading_size": "h1",
-        "description": "<p><strong>Save $15 <\/strong>when you purchase as a bundle!<\/p>",
+        "description": "<p><strong>Save $15 </strong>when you purchase as a bundle!</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "abcs-of-character-bundles",
@@ -162,13 +171,13 @@
       "custom_css": [
         ".h5 {font-size: 18px;}",
         ".price {font-size: 16px;}",
-        "@media only screen and (min-width: 768px) {\/* For desktop: *\/ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
+        "@media only screen and (min-width: 768px) {/* For desktop: */ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
       ],
       "settings": {
         "custom_id": "custom-id",
         "title": "For Parents, Teachers, and Leaders",
         "heading_size": "h1",
-        "description": "<p>An extension of the <em>ABC’S of Character<\/em> to help guide, teach, and mentor your kids through the alphabet to develop fundamental character traits one letter at a time. Reveals more curriculum in the parent, teacher and leader guides to further additional growth to cultivate your kids’ character for years to come.<\/p>",
+        "description": "<p>An extension of the <em>ABC’S of Character</em> to help guide, teach, and mentor your kids through the alphabet to develop fundamental character traits one letter at a time. Reveals more curriculum in the parent, teacher and leader guides to further additional growth to cultivate your kids’ character for years to come.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "abcs-of-character-for-parents-teachers",
@@ -197,21 +206,21 @@
         "column_GqBgTQ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kids.jpg",
+            "image": "shopify://shop_images/Kids.jpg",
             "title": "For Kids",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/abcs-of-character-for-kids"
+            "link": "shopify://collections/abcs-of-character-for-kids"
           }
         },
         "column_WPMW3m": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Adults.jpg",
-            "title": "For Parents\/Teachers",
-            "text": "<p>Description<\/p>",
+            "image": "shopify://shop_images/Adults.jpg",
+            "title": "For Parents/Teachers",
+            "text": "<p>Description</p>",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/products\/abcs-of-character-daily-guide"
+            "link": "shopify://products/abcs-of-character-daily-guide"
           }
         }
       },
