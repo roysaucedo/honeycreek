@@ -9,6 +9,10 @@
 }
 .text-audio--text-div {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
 }
 
 .text-audio--image-div {
