@@ -16,6 +16,22 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_7yxeNz": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/ABCs_Dad_Son_Book01_1920x1080_3d8d3b8d-6946-4c34-8a39-9ee4dcf3c0b0.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -96,22 +112,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "image_banner_7yxeNz": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/ABCs_Dad_Son_Book01_1920x1080_3d8d3b8d-6946-4c34-8a39-9ee4dcf3c0b0.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "featured_collection_LCQQ9F": {
@@ -265,11 +265,11 @@
   },
   "order": [
     "breadcrumbs_VF97BK",
+    "image_banner_7yxeNz",
     "main",
     "collection_text_audio_player_EVBWQQ",
     "collection_header_text_R8dtrk",
     "rich_text_HCj9Rh",
-    "image_banner_7yxeNz",
     "featured_collection_LCQQ9F",
     "featured_collection_YYDftA",
     "featured_collection_agi7fx",
