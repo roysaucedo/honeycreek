@@ -41,8 +41,8 @@
     width: 50%;
 }
 .text-audio--absolute_image {
-   right: 20px;
-   bottom: 0px;
+   right: 0px;
+   bottom: -60px;
    width: 180px;
 
 }
