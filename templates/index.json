@@ -1,24 +1,24 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_text_hero_8T74VY": {
       "type": "image-text-hero",
       "settings": {
         "h1": "Better Kids Make A Better World",
-        "p": "<p>Honey Creek U aims to positively influence families by creating life-changing products and materials that inspire.<\/p>",
+        "p": "<p>Honey Creek U aims to positively influence families by creating life-changing products and materials that inspire.</p>",
         "subtext": "From the creators of Bullfrog & Butterflies and Music Machine",
         "button_text": "Explore Our Collections",
-        "button_link": "shopify:\/\/pages\/shop-all",
-        "image": "shopify:\/\/shop_images\/Hero-Img-HoneyCreek_2.png",
-        "absolute_image": "shopify:\/\/shop_images\/image_5_5.png"
+        "button_link": "shopify://pages/shop-all",
+        "image": "shopify://shop_images/Hero-Img-HoneyCreek_2.png",
+        "absolute_image": "shopify://shop_images/image_5_5.png"
       }
     },
     "section_reviews_slider_PDNUCL": {
@@ -27,43 +27,43 @@
         "slide_H79nAt": {
           "type": "Slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_24_1.png",
-            "rich_text": "<p>“A few of the students were crying because they felt so happy because they were touched by the music and the message. <span style=\"text-decoration:underline\"><strong>This is exactly what our school needed at this time.<\/strong><\/span>”<\/p><p><strong>Denis C. - Principal<\/strong><\/p>"
+            "image": "shopify://shop_images/Group_24_1.png",
+            "rich_text": "<p>“A few of the students were crying because they felt so happy because they were touched by the music and the message. <span style=\"text-decoration:underline\"><strong>This is exactly what our school needed at this time.</strong></span>”</p><p><strong>Denis C. - Principal</strong></p>"
           }
         },
         "slide_wU8gdt": {
           "type": "Slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_24_1.png",
-            "rich_text": "<p>\"I really want to thank you for the character book and the CD. It was fabulous. Also the vocabulary like honesty, kindness, [and] respect.\"<\/p><p><strong>Chaysity E. - Elementary Student<\/strong><\/p>"
+            "image": "shopify://shop_images/Group_24_1.png",
+            "rich_text": "<p>\"I really want to thank you for the character book and the CD. It was fabulous. Also the vocabulary like honesty, kindness, [and] respect.\"</p><p><strong>Chaysity E. - Elementary Student</strong></p>"
           }
         },
         "slide_ndXFK3": {
           "type": "Slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_24_1.png",
-            "rich_text": "<p>\"I sing the songs every day. And I also read the book. I loved everything.\"<\/p><p><strong>Sidney W. - Elementary Student<\/strong><\/p>"
+            "image": "shopify://shop_images/Group_24_1.png",
+            "rich_text": "<p>\"I sing the songs every day. And I also read the book. I loved everything.\"</p><p><strong>Sidney W. - Elementary Student</strong></p>"
           }
         },
         "slide_QA8iig": {
           "type": "Slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_24_1.png",
-            "rich_text": "<p>\"This program is good for any parent- it’s so easy to use! I love the fact that it not only combines character with music, but it’s classical music. As a home-schooler, it’s good for character training AND music appreciation.\"<\/p><p><strong>Tina C. - Parent<\/strong><\/p>"
+            "image": "shopify://shop_images/Group_24_1.png",
+            "rich_text": "<p>\"This program is good for any parent- it’s so easy to use! I love the fact that it not only combines character with music, but it’s classical music. As a home-schooler, it’s good for character training AND music appreciation.\"</p><p><strong>Tina C. - Parent</strong></p>"
           }
         },
         "slide_hmKDax": {
           "type": "Slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_24_1.png",
-            "rich_text": "<p>\"I feel that I have a goal to reach after reading the <em>Handbook for Life<\/em>. It has made me so confident.\"<\/p><p><strong>- Middle School Student<\/strong><\/p>"
+            "image": "shopify://shop_images/Group_24_1.png",
+            "rich_text": "<p>\"I feel that I have a goal to reach after reading the <em>Handbook for Life</em>. It has made me so confident.\"</p><p><strong>- Middle School Student</strong></p>"
           }
         },
         "slide_kV8BX8": {
           "type": "Slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_24_1.png",
-            "rich_text": "<p>\"My daughter’s teacher was amazed at our little girl when she reached out to a lonely and frightened new student. I told her it was something my daughter learned from her<em>Character Classics <\/em>selection, “Find a Friend.\"<\/p><p><strong>- Parent<\/strong><\/p>"
+            "image": "shopify://shop_images/Group_24_1.png",
+            "rich_text": "<p>\"My daughter’s teacher was amazed at our little girl when she reached out to a lonely and frightened new student. I told her it was something my daughter learned from her<em>Character Classics </em>selection, “Find a Friend.\"</p><p><strong>- Parent</strong></p>"
           }
         }
       },
@@ -132,7 +132,7 @@
         "text_V99Nfy": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Pharetra hac duis elit in tincidunt diam euismod facilisis. Nunc nisl faucibus.<\/p>"
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Pharetra hac duis elit in tincidunt diam euismod facilisis. Nunc nisl faucibus.</p>"
           }
         }
       },
@@ -159,24 +159,27 @@
       ],
       "settings": {
         "h1": "GOLD LABEL VALUES",
-        "p": "<p>At Honey Creek, we offer a collection of products and resources that embody timeless values. Our content is not just inspirational, meaningful, and endearing but is also seamlessly integrated into daily life, making it easy to listen to, watch, or read.<\/p><p>Rooted in the philosophy of 'Sing It and You'll Never Forget It', our products are designed to be enjoyed repeatedly by children, youth, and adults alike. Our offerings go beyond mere entertainment; they serve as a powerful tool to reinforce essential behavioral traits and skills.<\/p><p>By providing positive alternatives to negative behavior, we contribute to personal growth and development. With a focus on teaching basic living skills, our products carry positive core values that align with the principles of successful living.<\/p><p>What sets us apart is the simplicity and accessibility of our products. With little to no preparation required, they are easy to use and easily orchestrate into various aspects of life. Moreover, our content encourages observation and awareness traits, fostering a mindset that engages users to serve others, mentor, and undergo positive character transformation.<\/p><p>We are dedicated to creating an enriching experience that not only entertains, but also educates and inspires individuals of all ages. Join us on a journey of personal growth, positive change, and a celebration of timeless values.<\/p><p><\/p>",
+        "p": "<p>At Honey Creek, we offer a collection of products and resources that embody timeless values. Our content is not just inspirational, meaningful, and endearing but is also seamlessly integrated into daily life, making it easy to listen to, watch, or read.</p><p>Rooted in the philosophy of 'Sing It and You'll Never Forget It', our products are designed to be enjoyed repeatedly by children, youth, and adults alike. Our offerings go beyond mere entertainment; they serve as a powerful tool to reinforce essential behavioral traits and skills.</p><p>By providing positive alternatives to negative behavior, we contribute to personal growth and development. With a focus on teaching basic living skills, our products carry positive core values that align with the principles of successful living.</p><p>What sets us apart is the simplicity and accessibility of our products. With little to no preparation required, they are easy to use and easily orchestrate into various aspects of life. Moreover, our content encourages observation and awareness traits, fostering a mindset that engages users to serve others, mentor, and undergo positive character transformation.</p><p>We are dedicated to creating an enriching experience that not only entertains, but also educates and inspires individuals of all ages. Join us on a journey of personal growth, positive change, and a celebration of timeless values.</p><p></p>",
         "btn_text": "Learn More",
-        "link": "shopify:\/\/pages\/honey-creek-kids-values",
-        "img_top_left": "shopify:\/\/shop_images\/Group_47_3.png",
-        "img_bottom_right": "shopify:\/\/shop_images\/Group_48_3.png",
-        "character_img": "shopify:\/\/shop_images\/image_5_5.png",
+        "link": "shopify://pages/honey-creek-kids-values",
+        "img_top_left": "shopify://shop_images/Group_47_3.png",
+        "img_bottom_right": "shopify://shop_images/Group_48_3.png",
+        "character_img": "shopify://shop_images/image_5_5.png",
         "padding_top": 100,
         "padding_bottom": 100
       }
     },
     "section_values_v2_tm8CeY": {
       "type": "section-values-v2",
+      "custom_css": [
+        "a {margin: auto;}"
+      ],
       "settings": {
         "h1": "Gold Label Values",
-        "p": "<p>At Honey Creek U, we offer a collection of products and resources that embody timeless values. Our content is not just inspirational, meaningful, and endearing but is also seamlessly integrated into daily life, making it easy to listen to, watch, or read.<\/p><p>Rooted in the philosophy of <span style=\"text-decoration:underline\"><em><strong>'Sing It and You'll Never Forget It'<\/strong><\/em><\/span>, our products are designed to be enjoyed repeatedly by children, youth, and adults alike. <\/p><p>Our offerings go beyond mere entertainment; they serve as a powerful tool to reinforce essential behavioral traits and skills.By providing positive alternatives to negative behavior, we contribute to personal growth and development. With a focus on teaching basic living skills, our products carry positive core values that align with the principles of successful living.<\/p><p>What sets us apart is the simplicity and accessibility of our products. With little to no preparation required, they are easy to use and easily orchestrate into various aspects of life. Moreover, our content encourages observation and awareness traits, fostering a mindset that engages users to serve others, mentor, and undergo positive character transformation.<\/p><p>We are dedicated to creating an enriching experience that not only entertains, but also educates and inspires individuals of all ages. Join us on a journey of personal growth, positive change, and a celebration of timeless values.<\/p><p><\/p>",
+        "p": "<p>At Honey Creek U, we offer a collection of products and resources that embody timeless values. Our content is not just inspirational, meaningful, and endearing but is also seamlessly integrated into daily life, making it easy to listen to, watch, or read.</p><p>Rooted in the philosophy of <span style=\"text-decoration:underline\"><em><strong>'Sing It and You'll Never Forget It'</strong></em></span>, our products are designed to be enjoyed repeatedly by children, youth, and adults alike. </p><p>Our offerings go beyond mere entertainment; they serve as a powerful tool to reinforce essential behavioral traits and skills.By providing positive alternatives to negative behavior, we contribute to personal growth and development. With a focus on teaching basic living skills, our products carry positive core values that align with the principles of successful living.</p><p>What sets us apart is the simplicity and accessibility of our products. With little to no preparation required, they are easy to use and easily orchestrate into various aspects of life. Moreover, our content encourages observation and awareness traits, fostering a mindset that engages users to serve others, mentor, and undergo positive character transformation.</p><p>We are dedicated to creating an enriching experience that not only entertains, but also educates and inspires individuals of all ages. Join us on a journey of personal growth, positive change, and a celebration of timeless values.</p><p></p>",
         "btn_text": "Learn More",
-        "link": "shopify:\/\/pages\/honey-creek-kids-values",
-        "img_top_right": "shopify:\/\/shop_images\/GOLD_1.png",
+        "link": "shopify://pages/honey-creek-kids-values",
+        "img_top_right": "shopify://shop_images/GOLD_1.png",
         "padding_top": 100,
         "padding_bottom": 60
       }
@@ -194,7 +197,7 @@
         "text_neh7DU": {
           "type": "text",
           "settings": {
-            "text": "<p>At Honey Creek, we offer a collection of products and resources that embody timeless values. <\/p><p>Our content is not just inspirational, meaningful, and endearing but is also seamlessly integrated into daily life, making it easy to listen to, watch, or read.<\/p><p> Rooted in the philosophy of 'Sing It and You'll Never Forget It,' our products are designed to be enjoyed repeatedly by children, youth, and adults alike.<\/p><p>Our offerings go beyond mere entertainment; they serve as a powerful tool to reinforce essential behavioral traits and skills. <\/p><p>By providing positive alternatives to negative behavior, we contribute to personal growth and development. With a focus on teaching basic living skills, our products carry positive core values that align with the principles of successful living.<\/p><p>What sets us apart is the simplicity and accessibility of our products. With little to no preparation required, they are easy to use and easily orchestrate into various aspects of life. Moreover, our content encourages observation and awareness traits, fostering a mindset that engages users to serve others, mentor, and undergo positive character transformation.<\/p><p>We are dedicated to creating an enriching experience that not only entertains but also educates and inspires individuals of all ages. Join us on a journey of personal growth, positive change, and a celebration of timeless values.<\/p>",
+            "text": "<p>At Honey Creek, we offer a collection of products and resources that embody timeless values. </p><p>Our content is not just inspirational, meaningful, and endearing but is also seamlessly integrated into daily life, making it easy to listen to, watch, or read.</p><p> Rooted in the philosophy of 'Sing It and You'll Never Forget It,' our products are designed to be enjoyed repeatedly by children, youth, and adults alike.</p><p>Our offerings go beyond mere entertainment; they serve as a powerful tool to reinforce essential behavioral traits and skills. </p><p>By providing positive alternatives to negative behavior, we contribute to personal growth and development. With a focus on teaching basic living skills, our products carry positive core values that align with the principles of successful living.</p><p>What sets us apart is the simplicity and accessibility of our products. With little to no preparation required, they are easy to use and easily orchestrate into various aspects of life. Moreover, our content encourages observation and awareness traits, fostering a mindset that engages users to serve others, mentor, and undergo positive character transformation.</p><p>We are dedicated to creating an enriching experience that not only entertains but also educates and inspires individuals of all ages. Join us on a journey of personal growth, positive change, and a celebration of timeless values.</p>",
             "text_style": "body"
           }
         }
@@ -205,7 +208,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/relaxing-with-book.jpg",
+        "image": "shopify://shop_images/relaxing-with-book.jpg",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -230,11 +233,11 @@
             "heading": "ABC's of Character",
             "description": "A Fun Program for Kids and Families that Helps Build Lives for a Brighter Future.",
             "tag": "",
-            "image": "shopify:\/\/shop_images\/a_5.png",
-            "background_image": "shopify:\/\/shop_images\/Frame_5_a7ee14fe-c471-40a8-b15c-e345f5cfb5ff.png",
-            "background_image_mobile": "shopify:\/\/shop_images\/Frame_11.jpg",
+            "image": "shopify://shop_images/a_5.png",
+            "background_image": "shopify://shop_images/Frame_5_a7ee14fe-c471-40a8-b15c-e345f5cfb5ff.png",
+            "background_image_mobile": "shopify://shop_images/Frame_11.jpg",
             "mobile_card_size": 500,
-            "link": "https:\/\/honeycreeku.com\/pages\/abcs-for-character-navigation",
+            "link": "https://honeycreeku.com/pages/abcs-for-character-navigation",
             "link_text": "Shop Now"
           }
         },
@@ -245,11 +248,11 @@
             "heading": "Handbook For Life",
             "description": "These enlightening books provide wisdom you may need, wrapped in real-life situations.",
             "tag": "",
-            "image": "shopify:\/\/shop_images\/image_14_2.png",
-            "background_image": "shopify:\/\/shop_images\/Frame_14_9.jpg",
-            "background_image_mobile": "shopify:\/\/shop_images\/Frame_15_6.jpg",
+            "image": "shopify://shop_images/image_14_2.png",
+            "background_image": "shopify://shop_images/Frame_14_9.jpg",
+            "background_image_mobile": "shopify://shop_images/Frame_15_6.jpg",
             "mobile_card_size": 600,
-            "link": "shopify:\/\/collections\/a-handbook-for-life",
+            "link": "shopify://collections/a-handbook-for-life",
             "link_text": "Shop Now"
           }
         },
@@ -260,11 +263,11 @@
             "heading": "Character Classics",
             "description": "Character Classics is a unique blend of memorable melodies and delightful, kid-friendly lyrics that help children discover the best of two worlds: Classical Music and Positive Values.",
             "tag": "Explore our incredible 12-Month Continuity program!",
-            "image": "shopify:\/\/shop_images\/Kindness_Book_CD_Together.png",
-            "background_image": "shopify:\/\/shop_images\/Frame_6_9.jpg",
-            "background_image_mobile": "shopify:\/\/shop_images\/Frame_12.jpg",
+            "image": "shopify://shop_images/Kindness_Book_CD_Together.png",
+            "background_image": "shopify://shop_images/Frame_6_9.jpg",
+            "background_image_mobile": "shopify://shop_images/Frame_12.jpg",
             "mobile_card_size": 700,
-            "link": "https:\/\/honeycreeku.com\/pages\/character-classics-program-buy-page",
+            "link": "https://honeycreeku.com/pages/character-classics-program-buy-page",
             "link_text": "Shop Now"
           }
         },
@@ -275,11 +278,11 @@
             "heading": "Character Billders",
             "description": "Kids and parents will love the beautifully, and sometimes humorously, illustrated book. Exciting stories with a character twist will delight children as they journey through.",
             "tag": "",
-            "image": "shopify:\/\/shop_images\/image-removebg-preview_28_1.png",
-            "background_image": "shopify:\/\/shop_images\/Frame_8_b4cfb8de-f76f-4ddc-bbf8-58adac962517.png",
-            "background_image_mobile": "shopify:\/\/shop_images\/Frame_8.jpg",
+            "image": "shopify://shop_images/image-removebg-preview_28_1.png",
+            "background_image": "shopify://shop_images/Frame_8_b4cfb8de-f76f-4ddc-bbf8-58adac962517.png",
+            "background_image_mobile": "shopify://shop_images/Frame_8.jpg",
             "mobile_card_size": 750,
-            "link": "shopify:\/\/collections\/character-billders",
+            "link": "shopify://collections/character-billders",
             "link_text": "Shop Now"
           }
         },
@@ -290,11 +293,11 @@
             "heading": "Mother Goose Tales",
             "description": "Ever wonder what happened to your favorite nursery rhyme characters? Here is the \"rest of the story\"!",
             "tag": "Available January 2025",
-            "image": "shopify:\/\/shop_images\/a-2_9e558d0a-7436-4fc1-9028-ba1c93b5cd4a.png",
-            "background_image": "shopify:\/\/shop_images\/Frame_9_f55998b6-a7bf-4703-bdfe-d4168f55afea.png",
-            "background_image_mobile": "shopify:\/\/shop_images\/Frame_13.jpg",
+            "image": "shopify://shop_images/a-2_9e558d0a-7436-4fc1-9028-ba1c93b5cd4a.png",
+            "background_image": "shopify://shop_images/Frame_9_f55998b6-a7bf-4703-bdfe-d4168f55afea.png",
+            "background_image_mobile": "shopify://shop_images/Frame_13.jpg",
             "mobile_card_size": 700,
-            "link": "shopify:\/\/collections\/mother-goose-tales",
+            "link": "shopify://collections/mother-goose-tales",
             "link_text": "Shop Now"
           }
         },
@@ -305,11 +308,11 @@
             "heading": "Character Tales",
             "description": "Character Classics is a unique blend of memorable melodies and delightful, kid-friendly lyrics that help children discover the best of two worlds: Classical Music and Positive Values.",
             "tag": "",
-            "image": "shopify:\/\/shop_images\/a_5.png",
-            "background_image": "shopify:\/\/shop_images\/Frame_10_10.jpg",
-            "background_image_mobile": "shopify:\/\/shop_images\/Frame_13_9.jpg",
+            "image": "shopify://shop_images/a_5.png",
+            "background_image": "shopify://shop_images/Frame_10_10.jpg",
+            "background_image_mobile": "shopify://shop_images/Frame_13_9.jpg",
             "mobile_card_size": 500,
-            "link": "https:\/\/honeycreeku.com\/pages\/character-classics-program-buy-page",
+            "link": "https://honeycreeku.com/pages/character-classics-program-buy-page",
             "link_text": "Coming Soon"
           }
         },
@@ -320,11 +323,11 @@
             "heading": "The Amazing Flag",
             "description": "The Amazing Flag Student Activity Book is filled with entertaining, fun activities, and facts that will create a new awareness of Old Glory and give kids a new respect and appreciation for our flag and what it stands for.",
             "tag": "Save $5 | Limited Time Offer",
-            "image": "shopify:\/\/shop_images\/a_5.png",
-            "background_image": "shopify:\/\/shop_images\/Frame_10_1.svg",
-            "background_image_mobile": "shopify:\/\/shop_images\/Frame_12_6.jpg",
+            "image": "shopify://shop_images/a_5.png",
+            "background_image": "shopify://shop_images/Frame_10_1.svg",
+            "background_image_mobile": "shopify://shop_images/Frame_12_6.jpg",
             "mobile_card_size": 600,
-            "link": "shopify:\/\/collections\/the-amazing-flag",
+            "link": "shopify://collections/the-amazing-flag",
             "link_text": "Shop Now"
           }
         },
@@ -336,11 +339,11 @@
             "heading": "Shop All",
             "description": "",
             "tag": "Tag",
-            "image": "shopify:\/\/shop_images\/image_5_5.png",
-            "background_image": "shopify:\/\/shop_images\/Frame_10_de872170-2ca9-4071-809d-9208806b03d5.png",
-            "background_image_mobile": "shopify:\/\/shop_images\/Frame_14_6.jpg",
+            "image": "shopify://shop_images/image_5_5.png",
+            "background_image": "shopify://shop_images/Frame_10_de872170-2ca9-4071-809d-9208806b03d5.png",
+            "background_image_mobile": "shopify://shop_images/Frame_14_6.jpg",
             "mobile_card_size": 400,
-            "link": "shopify:\/\/pages\/shop-all",
+            "link": "shopify://pages/shop-all",
             "link_text": "Shop Now"
           }
         }
