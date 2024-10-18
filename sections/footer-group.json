@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -17,9 +17,9 @@
         "collection_Y3NMKw": {
           "type": "Collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_2_53.png",
+            "image": "shopify://shop_images/Frame_2_53.png",
             "collection_title": "ABC's of Character",
-            "link": "shopify:\/\/pages\/abcs-for-character-navigation",
+            "link": "shopify://pages/abcs-for-character-navigation",
             "show_tag": false,
             "tag": "Coming Soon"
           }
@@ -27,9 +27,9 @@
         "collection_CBj3Rm": {
           "type": "Collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_44_3ffad478-2d59-4797-9b72-ba913b65194c.png",
+            "image": "shopify://shop_images/Frame_44_3ffad478-2d59-4797-9b72-ba913b65194c.png",
             "collection_title": "Character Classics",
-            "link": "shopify:\/\/pages\/character-classics-program-buy-page",
+            "link": "shopify://pages/character-classics-program-buy-page",
             "show_tag": false,
             "tag": "Block Tag"
           }
@@ -37,9 +37,9 @@
         "collection_kRQeWw": {
           "type": "Collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1_90.png",
+            "image": "shopify://shop_images/Frame_1_90.png",
             "collection_title": "Handbook For Life",
-            "link": "shopify:\/\/collections\/a-handbook-for-life",
+            "link": "shopify://collections/a-handbook-for-life",
             "show_tag": false,
             "tag": "Block Tag"
           }
@@ -47,9 +47,9 @@
         "collection_eNiDzE": {
           "type": "Collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LittleLion-Beeper_1.png",
+            "image": "shopify://shop_images/LittleLion-Beeper_1.png",
             "collection_title": "Character Billders",
-            "link": "shopify:\/\/collections\/character-billders",
+            "link": "shopify://collections/character-billders",
             "show_tag": false,
             "tag": "Coming Soon"
           }
@@ -57,9 +57,9 @@
         "collection_dx8mMt": {
           "type": "Collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LittleLion-Ducklings_1.png",
+            "image": "shopify://shop_images/LittleLion-Ducklings_1.png",
             "collection_title": "Mother Goose Tales",
-            "link": "shopify:\/\/collections\/mother-goose-tales",
+            "link": "shopify://collections/mother-goose-tales",
             "show_tag": true,
             "tag": "Coming Soon"
           }
@@ -67,9 +67,9 @@
         "collection_4RbfwM": {
           "type": "Collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LionWthFlag.png",
+            "image": "shopify://shop_images/LionWthFlag.png",
             "collection_title": "The Amazing Flag",
-            "link": "shopify:\/\/collections\/the-amazing-flag",
+            "link": "shopify://collections/the-amazing-flag",
             "show_tag": false,
             "tag": "Coming Soon"
           }
@@ -77,9 +77,9 @@
         "collection_68TfMd": {
           "type": "Collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_5_5.png",
+            "image": "shopify://shop_images/image_5_5.png",
             "collection_title": "Shop All",
-            "link": "shopify:\/\/pages\/shop-all",
+            "link": "shopify://pages/shop-all",
             "show_tag": false,
             "tag": ""
           }
@@ -97,7 +97,7 @@
       "settings": {
         "heading": "Follow The Guides",
         "p": "",
-        "link": "shopify:\/\/pages\/shop-all",
+        "link": "shopify://pages/shop-all",
         "padding_top": 36,
         "padding_bottom": 0
       }
@@ -115,7 +115,7 @@
         "paragraph_jh6PRT": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
         },
         "email_form_pAjbDe": {
@@ -142,7 +142,7 @@
         "image_Y94dqw": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HoneyCreekU-Logo_WHT.png",
+            "image": "shopify://shop_images/HoneyCreekU-Logo_WHT.png",
             "image_width": 200,
             "alignment": ""
           }
@@ -171,7 +171,7 @@
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
-        "show_policy": false,
+        "show_policy": true,
         "margin_top": 0,
         "padding_top": 64,
         "padding_bottom": 36
