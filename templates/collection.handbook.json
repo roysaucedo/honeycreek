@@ -51,7 +51,7 @@
         "p": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}</p>",
         "button_text": "",
         "button_link": "",
-        "audio": "<script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer></script>\n<div class=\"commonninja_component pid-a62ce1e2-95a1-4d5b-bbfe-275e20e39f1d\"></div>"
+        "audio": ""
       }
     },
     "collection_header_text_EjXVXz": {
