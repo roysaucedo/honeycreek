@@ -175,6 +175,16 @@
         "padding_bottom": 52
       }
     },
+    "custom_liquid_NYDPjK": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer></script>\n<div class=\"commonninja_component pid-a62ce1e2-95a1-4d5b-bbfe-275e20e39f1d\"></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "170961959994ceef1e": {
       "type": "apps",
       "blocks": {
@@ -189,15 +199,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "custom_liquid_NYDPjK": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer></script>\n<div class=\"commonninja_component pid-a62ce1e2-95a1-4d5b-bbfe-275e20e39f1d\"></div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "related-products": {
