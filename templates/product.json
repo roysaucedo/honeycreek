@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "custom_liquid_XTekd3": {
@@ -28,7 +28,7 @@
           }
         },
         "judge_me_reviews_preview_badge_Km7VDp": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -60,7 +60,7 @@
           "type": "popup",
           "settings": {
             "text": "Why Do You Offer a Physical CD & Digital Download?",
-            "modal_image": "shopify:\/\/shop_images\/modal-star.png",
+            "modal_image": "shopify://shop_images/modal-star.png",
             "page": "physical-cd-digital-download"
           }
         },
@@ -93,7 +93,7 @@
           "settings": {
             "heading": "Product Specifications",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.product_specifications | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.product_specifications | metafield_tag }}</p>",
             "page": ""
           }
         }
@@ -137,7 +137,7 @@
         "heading": "Video",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -158,7 +158,7 @@
         "text_GQ7nxr": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.custom.short_collection_description | metafield_tag }}<\/p>"
+            "text": "<p>{{ product.metafields.custom.short_collection_description | metafield_tag }}</p>"
           }
         }
       },
@@ -179,7 +179,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_bPYg43": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
@@ -191,12 +191,21 @@
         "include_margins": true
       }
     },
+    "custom_liquid_NYDPjK": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer></script>\n<div class=\"commonninja_component pid-a62ce1e2-95a1-4d5b-bbfe-275e20e39f1d\"></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "related-products": {
       "type": "related-products",
       "custom_css": [
         ".h5 {font-size: 18px;}",
         ".price {font-size: 16px;}",
-        "@media only screen and (min-width: 768px) {\/* For desktop: *\/ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
+        "@media only screen and (min-width: 768px) {/* For desktop: */ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
       ],
       "settings": {
         "heading": "You may also like",
@@ -220,6 +229,7 @@
     "main",
     "video_7jwNLx",
     "rich_text_7TDeE6",
+    "custom_liquid_NYDPjK",
     "170961959994ceef1e",
     "related-products"
   ]
