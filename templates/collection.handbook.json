@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs_6EdQGm": {
@@ -5,6 +14,22 @@
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_4mr7xn": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/HFL_BoyVer01_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "banner": {
@@ -23,10 +48,10 @@
       "type": "collection-text-audio-player",
       "settings": {
         "h1": "{{ collection.title }}",
-        "p": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>",
+        "p": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}</p>",
         "button_text": "",
         "button_link": "",
-        "audio": "<script src=\"https:\/\/cdn.commoninja.com\/sdk\/latest\/commonninja.js\" defer><\/script>\n<div class=\"commonninja_component pid-a62ce1e2-95a1-4d5b-bbfe-275e20e39f1d\"><\/div>"
+        "audio": "<script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer></script>\n<div class=\"commonninja_component pid-a62ce1e2-95a1-4d5b-bbfe-275e20e39f1d\"></div>"
       }
     },
     "collection_header_text_EjXVXz": {
@@ -42,7 +67,7 @@
         "text_t9j3RU": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>"
+            "text": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}</p>"
           }
         }
       },
@@ -65,7 +90,7 @@
       "custom_css": [
         ".h5 {font-size: 18px;}",
         ".price {font-size: 16px;}",
-        "@media only screen and (min-width: 768px) {\/* For desktop: *\/ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
+        "@media only screen and (min-width: 768px) {/* For desktop: */ .h5 {font-size: 22px; } .price {font-size: 18px; }}"
       ],
       "settings": {
         "products_per_page": 16,
@@ -88,6 +113,7 @@
   },
   "order": [
     "breadcrumbs_6EdQGm",
+    "image_banner_4mr7xn",
     "banner",
     "collection_text_audio_player_PVmeGR",
     "collection_header_text_EjXVXz",
