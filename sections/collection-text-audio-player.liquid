@@ -19,10 +19,10 @@
                 <p>{{ section.settings.p }}</p>
             </div>
             <a class="button button--primary" href="{{ section.settings.button_link }}">{{ section.settings.button_text }}</a>
-            {% if collection.image %}
+            <!-- {% if collection.image %}
             <div class="collection-hero__image-container media gradient">
             
-                <!-- <img srcset="
+                <img srcset="
                             {%- if collection.image.width >= 165 -%}{{ collection.image | image_url: width: 165 }} 165w,{%- endif -%}
                             {%- if collection.image.width >= 360 -%}{{ collection.image | image_url: width: 360 }} 360w,{%- endif -%}
                             {%- if collection.image.width >= 535 -%}{{ collection.image | image_url: width: 535 }} 535w,{%- endif -%}
@@ -32,10 +32,10 @@
                             {{ collection.image | image_url }} {{ collection.image.width }}w
                         " src="{{ collection.image | image_url: width: 750 }}"
                     sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc(50vw - 130px), calc(50vw - 55px)"
-                    alt="" width="{{ collection.image.width }}" height="{{ collection.image.height }}"> -->
+                    alt="" width="{{ collection.image.width }}" height="{{ collection.image.height }}">
             
             </div>
-            {% endif %}
+            {% endif %} -->
 
 
         </div>
