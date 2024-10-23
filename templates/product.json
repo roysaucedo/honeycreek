@@ -175,8 +175,20 @@
         "padding_bottom": 52
       }
     },
+    "audio_player_eM8Cmj": {
+      "type": "audio-player",
+      "settings": {
+        "h1": "Heading",
+        "p": "<p>Add your paragraph here</p>",
+        "btn_text": "Learn More",
+        "link": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "custom_liquid_NYDPjK": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer></script>\n<div class=\"commonninja_component pid-a62ce1e2-95a1-4d5b-bbfe-275e20e39f1d\"></div>",
         "color_scheme": "",
@@ -229,6 +241,7 @@
     "main",
     "video_7jwNLx",
     "rich_text_7TDeE6",
+    "audio_player_eM8Cmj",
     "custom_liquid_NYDPjK",
     "170961959994ceef1e",
     "related-products"
