@@ -177,7 +177,6 @@
     },
     "custom_liquid_NYDPjK": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer></script>\n<div class=\"commonninja_component pid-a62ce1e2-95a1-4d5b-bbfe-275e20e39f1d\"></div>",
         "color_scheme": "",
