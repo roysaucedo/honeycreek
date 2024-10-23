@@ -17,11 +17,12 @@
 {%- endstyle -%}
 
 
-
+{% if product.metafields.custom.audio_player_id != blank %}
 <div class="section-{{ section.id }}-padding">
     <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
-<div class="{{ product.metafields.custom.audio_player_id }}"></div>
+    <div class="{{ product.metafields.custom.audio_player_id }}"></div>
 </div>
+{% endif %}
 
 
 {% schema %}
@@ -30,39 +31,6 @@
   "tag": "section",
   "class": "section",
   "settings": [
-    {
-      "type": "text",
-      "id": "h1",
-      "default": "Heading",
-      "label": "Heading"
-    },
-    {
-      "type": "richtext",
-      "id": "p",
-      "default": "<p>Add your paragraph here</p>",
-      "label": "Add your paragraph here"
-    },
-    {
-      "type": "text",
-      "id": "btn_text",
-      "label": "Button Text",
-      "default": "Learn More"
-    },
-    {
-      "type": "url",
-      "id": "link",
-      "label": "Button Link"
-    },
-    {
-      "type": "image_picker",
-      "id": "img_top_right",
-      "label": "Top right image"
-    },
-    {
-      "type": "image_picker",
-      "id": "character_img",
-      "label": "Character Image"
-    },
     {
       "type": "range",
       "id": "padding_top",
