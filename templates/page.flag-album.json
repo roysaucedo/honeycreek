@@ -13,26 +13,10 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div style=\"display: flex; justify-content: center; align-items: center;\">\n <img src=\"your-image-url.jpg\" alt=\"Description\" style=\"max-width: 50%; height: auto;\">\n</div>",
+        "custom_liquid": "<div style=\"display: flex; justify-content: center; align-items: center;\">\n <img src=\"https://cdn.shopify.com/s/files/1/0609/4569/4905/files/AMAZING_FLAG_2_Web_2.png?v=1750198341\" alt=\"Description\" style=\"max-width: 30%; height: auto;\">\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "image_banner_K7Fa8B": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/banner-amazing-flag_9abf3001-dac5-4ecc-876f-0b71a48bd65a.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "main": {
@@ -96,7 +80,6 @@
   },
   "order": [
     "custom_liquid_JdVweK",
-    "image_banner_K7Fa8B",
     "main",
     "17260006886823ea9c",
     "collection_header_text_UL3QXi"
