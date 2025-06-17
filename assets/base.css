@@ -3538,3 +3538,6 @@ details-disclosure > details {
 .position-relative {
   position: relative;
 }
+div > div > div > div.sc-dycYrt.gFCqNi.audio-list-wrapper.show {
+    max-height: 1000px !important;
+}

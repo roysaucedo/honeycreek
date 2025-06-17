@@ -43,9 +43,7 @@
       "block_order": [
         "common_ninja_audio_player_app_block_ciBaNf"
       ],
-      "custom_css": [
-        ".gFCqNi{max-height: 1000px !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "include_margins": true
       }
