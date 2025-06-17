@@ -12,9 +12,9 @@
     "image_banner_K7Fa8B": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/banner-amazing-flag.jpg",
+        "image": "shopify://shop_images/banner-amazing-flag_9abf3001-dac5-4ecc-876f-0b71a48bd65a.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
