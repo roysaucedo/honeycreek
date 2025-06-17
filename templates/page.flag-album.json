@@ -44,7 +44,7 @@
         "common_ninja_audio_player_app_block_ciBaNf"
       ],
       "custom_css": [
-        "div > div > div > div.sc-dycYrt.gFCqNi.audio-list-wrapper.show {min-height: 1000px !import;}"
+        ".gFCqNi.show {max-height: 1000px !important;}"
       ],
       "settings": {
         "include_margins": true
