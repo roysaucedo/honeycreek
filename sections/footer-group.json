@@ -20,7 +20,7 @@
             "image": "shopify://shop_images/Frame_2_53.png",
             "collection_title": "ABC's of Character",
             "link": "shopify://pages/abcs-for-character-navigation",
-            "show_tag": false,
+            "show_tag": true,
             "tag": "Coming Soon"
           }
         },
@@ -120,8 +120,7 @@
         },
         "email_form_pAjbDe": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
