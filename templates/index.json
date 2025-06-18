@@ -322,11 +322,11 @@
             "span_width": "1",
             "heading": "The Amazing Flag",
             "description": "The Amazing Flag Student Activity Book is filled with entertaining, fun activities, and facts that will create a new awareness of Old Glory and give kids a new respect and appreciation for our flag and what it stands for.",
-            "tag": "Save $5 | Limited Time Offer",
+            "tag": "",
             "image": "shopify://shop_images/a_5.png",
             "background_image": "shopify://shop_images/Frame_17_11.png",
             "background_image_mobile": "shopify://shop_images/Frame_16_6.jpg",
-            "mobile_card_size": 600,
+            "mobile_card_size": 750,
             "link": "shopify://products/the-amazing-flag",
             "link_text": "Shop Now"
           }
