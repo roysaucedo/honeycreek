@@ -16,7 +16,7 @@
         "p": "<p>Honey Creek U aims to positively influence families by creating life-changing products and materials that inspire.</p>",
         "subtext": "From the creators of Bullfrog & Butterflies and Music Machine",
         "button_text": "Explore Our Collections",
-        "button_link": "shopify://pages/shop-all",
+        "button_link": "#explore",
         "image": "shopify://shop_images/Hero-Img-HoneyCreek_2.png",
         "absolute_image": "shopify://shop_images/image_5_5.png"
       }
