@@ -223,6 +223,16 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_JBzhBj": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div id=\"explore\"></div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_collection_card_grid_R4KNtk": {
       "type": "section-collection-card-grid",
       "blocks": {
@@ -367,8 +377,7 @@
     "pagefly-home": {
       "type": "pagefly-home",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
@@ -379,6 +388,7 @@
     "home_values_statement_X3drFX",
     "section_values_v2_tm8CeY",
     "image_with_text_3bKwHT",
+    "custom_liquid_JBzhBj",
     "section_collection_card_grid_R4KNtk",
     "pagefly-home"
   ]
